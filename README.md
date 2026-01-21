@@ -7,22 +7,20 @@ save the planet earth! (a simple 2d game made with godot)
 </samp>
 
 <samp>
-**description: the planet earth is in danger and is close to being attacked. this calls for an emergency, earth needs your help... are you ready?**
+__description: the planet earth is in danger and is close to being attacked. this calls for an emergency, earth needs your help... are you ready?__
 </div>
 
 <samp>
 
 ## rough mindmap of what's coming up
 
-- font formatting options (font-style, color, headings)
-- the flexibility of choosing your own custom link
-- an optional feature to protect the note with a password
-- a live wpm tracker as you type
-- ability to add images
-- exporting the page to a pdf-content
+scene 1: cinematic opening with storytelling about how the earth is about to be invaded and so + smoothly transitions into a colorful panel putting the world's hope on the userr
+scene 2: the user can select between yes or no (with a cute hopeful emoji)
+scene 3: the scene fades in with the spaceship leaving the earth and finally entering the space
+scene 4: you just destroy the asteroids coming at you HOWEVER! you mustn't hit any planets or that would result in a gravitational disruption eventually ending it all
 
+brainstorm about what to add for score-tracking... maybe something about how you find a new planet to seek help which eventually spirals into a whole new storyline
 </samp>
-
 
 ## screenshots!
 
