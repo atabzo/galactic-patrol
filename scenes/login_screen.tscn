@@ -1,4 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b6cl3fx42or86"]
+[gd_scene load_steps=4 format=3 uid="uid://b6cl3fx42or86"]
+
+[ext_resource type="Texture2D" uid="uid://c8xopbjd3u200" path="res://images-2/image 2.png" id="1_8q002"]
+[ext_resource type="Texture2D" uid="uid://dt6r5velbhri7" path="res://images/stars.png" id="1_e8ckn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h6k8t"]
 size = Vector2(1195, 718)
@@ -8,11 +11,15 @@ size = Vector2(1195, 718)
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(578.5, 320)
+position = Vector2(569, 314)
 shape = SubResource("RectangleShape2D_h6k8t")
-debug_color = Color(0.52686596, 0.24693188, 0.011669638, 1)
+debug_color = Color(0.079102226, 0.25193384, 0.28506592, 1)
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(578.5, 320)
-shape = SubResource("RectangleShape2D_h6k8t")
-debug_color = Color(0.52686596, 0.24693188, 0.011669638, 1)
+[node name="Image2" type="Sprite2D" parent="Area2D"]
+position = Vector2(1054, 318.00003)
+scale = Vector2(0.9387255, 0.9463576)
+texture = ExtResource("1_8q002")
+
+[node name="Stars" type="Sprite2D" parent="Area2D"]
+position = Vector2(987, 185)
+texture = ExtResource("1_e8ckn")

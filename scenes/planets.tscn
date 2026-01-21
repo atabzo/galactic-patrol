@@ -8,21 +8,22 @@
 [node name="planets" type="Node2D"]
 
 [node name="jupiter" type="Sprite2D" parent="."]
-position = Vector2(808.00006, 183.00002)
+visible = false
+position = Vector2(967.99994, 250)
 scale = Vector2(0.472, 0.45299998)
 texture = ExtResource("1_sgm8m")
 
 [node name="shiny-moon" type="Sprite2D" parent="."]
-position = Vector2(141, 363)
-scale = Vector2(0.29116467, 0.27710843)
+position = Vector2(861.00006, 372.00003)
+scale = Vector2(0.131024, 0.12550199)
 texture = ExtResource("2_ncoji")
 
 [node name="neptune" type="Sprite2D" parent="."]
-position = Vector2(169.25003, 94.31251)
+position = Vector2(722, 146)
 scale = Vector2(0.3022058, 0.30129623)
 texture = ExtResource("3_8j55i")
 
 [node name="moon" type="Sprite2D" parent="."]
-position = Vector2(965.00006, 416)
-scale = Vector2(0.2184874, 0.21408452)
+position = Vector2(1051, 102)
+scale = Vector2(0.12044829, 0.11126758)
 texture = ExtResource("4_e7l5m")
