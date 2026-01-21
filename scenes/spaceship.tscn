@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://5itikjci4prl"]
+
+[ext_resource type="Texture2D" uid="uid://b80i822qloa1j" path="res://images/spaceship.png" id="1_yqmju"]
+[ext_resource type="Script" uid="uid://melw8cxs7q54" path="res://scenes/spaceship.gd" id="2_ae4p7"]
+
+[node name="Spaceship" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(282, 189)
+texture = ExtResource("1_yqmju")
+script = ExtResource("2_ae4p7")
