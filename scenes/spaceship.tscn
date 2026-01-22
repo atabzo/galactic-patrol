@@ -10,6 +10,7 @@ scale = Vector2(1.229297, 1.2502742)
 script = ExtResource("2_ae4p7")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(5.6943126, -3.9991221)
+position = Vector2(-2.4404182, -3.199295)
+scale = Vector2(0.40442806, 0.521713)
 texture = ExtResource("2_xs8u7")
 script = SubResource("GDScript_ae4p7")

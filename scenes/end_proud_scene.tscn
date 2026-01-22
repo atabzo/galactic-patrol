@@ -15,16 +15,16 @@ offset_bottom = 659.0
 color = Color(0.39607844, 0.2627451, 0.12941177, 1)
 
 [node name="Download1RemovebgPreview" type="Sprite2D" parent="ColorRect"]
-position = Vector2(1545, 484.00006)
+position = Vector2(1551.0001, 493)
 scale = Vector2(1.1177043, 1.1994845)
 texture = ExtResource("1_gdtdo")
 
 [node name="Label" type="Label" parent="ColorRect"]
 layout_mode = 0
-offset_left = 131.0
-offset_top = 141.0
-offset_right = 1087.0
-offset_bottom = 612.0
+offset_left = 97.0
+offset_top = 160.0
+offset_right = 1084.0
+offset_bottom = 477.0
 theme_override_fonts/font = ExtResource("2_3upud")
 theme_override_font_sizes/font_size = 62
 text = "You just saved the Earth!

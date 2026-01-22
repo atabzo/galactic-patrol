@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvys2e44kyhd2"
-path="res://.godot/imported/effects (1).png-1006d1a51bfbb1c734439eb87b0315b5.ctex"
+uid="uid://bmn0q1arggc8s"
+path="res://.godot/imported/glittery clouds.jpg-5bb56ea9be302a10401fe2c62746c457.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/effects/effects (1).png"
-dest_files=["res://.godot/imported/effects (1).png-1006d1a51bfbb1c734439eb87b0315b5.ctex"]
+source_file="res://images/backdrops/glittery clouds.jpg"
+dest_files=["res://.godot/imported/glittery clouds.jpg-5bb56ea9be302a10401fe2c62746c457.ctex"]
 
 [params]
 

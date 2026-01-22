@@ -16,7 +16,7 @@ description: the planet earth is in danger and is close to being attacked. this 
 
 scene 1: cinematic opening with storytelling about how the earth is about to be invaded and so + smoothly transitions into a colorful panel putting the world's hope on the userr
 
-scene 2: the user can select between yes or no (with a cute hopeful emoji)
+scene 2: the user can select between yes or yes
 
 scene 3: the scene fades in with the spaceship leaving the earth and finally entering the space
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw0atr6wwpljv"
-path="res://.godot/imported/effects (4).png-f4c52bff66fb2137edb26298b2e34966.ctex"
+uid="uid://b5wji2708qs2u"
+path="res://.godot/imported/starry sky.jpg-74851047ec0c311071d2d24fce737215.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/effects/effects (4).png"
-dest_files=["res://.godot/imported/effects (4).png-f4c52bff66fb2137edb26298b2e34966.ctex"]
+source_file="res://images/backdrops/starry sky.jpg"
+dest_files=["res://.godot/imported/starry sky.jpg-74851047ec0c311071d2d24fce737215.ctex"]
 
 [params]
 

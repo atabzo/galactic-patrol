@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cx4nvljesj1fl"]
 
-[ext_resource type="Texture2D" uid="uid://bh20df7lljpqp" path="res://images/background.jpg" id="1_7fbp7"]
+[ext_resource type="Texture2D" path="res://images/background.jpg" id="1_7fbp7"]
 [ext_resource type="PackedScene" uid="uid://5itikjci4prl" path="res://scenes/spaceship.tscn" id="2_rwe2g"]
 [ext_resource type="PackedScene" uid="uid://3ftjinsp46ma" path="res://scenes/planets.tscn" id="3_rwe2g"]
 
@@ -12,7 +12,7 @@ scale = Vector2(1.8828123, 1.9694444)
 texture = ExtResource("1_7fbp7")
 
 [node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
-position = Vector2(572, 449.00003)
+position = Vector2(602, 567.00006)
 
 [node name="planets" parent="." instance=ExtResource("3_rwe2g")]
-position = Vector2(150, 124)
+position = Vector2(40, 77)

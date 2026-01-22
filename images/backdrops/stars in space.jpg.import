@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5egd0ijyalvy"
-path="res://.godot/imported/effects (5).png-a8115a03886f59fe350fb0a22a26249c.ctex"
+uid="uid://nr0mrb44tuq4"
+path="res://.godot/imported/stars in space.jpg-97f07064197a033af343a9350e4d87b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/effects/effects (5).png"
-dest_files=["res://.godot/imported/effects (5).png-a8115a03886f59fe350fb0a22a26249c.ctex"]
+source_file="res://images/backdrops/stars in space.jpg"
+dest_files=["res://.godot/imported/stars in space.jpg-97f07064197a033af343a9350e4d87b6.ctex"]
 
 [params]
 
