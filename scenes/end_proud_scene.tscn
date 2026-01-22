@@ -8,36 +8,37 @@
 [node name="end-proud-scene" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -2.0
-offset_top = -11.0
-offset_right = 1187.0
-offset_bottom = 659.0
-color = Color(0.39607844, 0.2627451, 0.12941177, 1)
+offset_left = -24.0
+offset_top = -17.0
+offset_right = 1165.0
+offset_bottom = 653.0
+color = Color(0.39607844, 1, 0.12941177, 1)
 
 [node name="Download1RemovebgPreview" type="Sprite2D" parent="ColorRect"]
-position = Vector2(1551.0001, 493)
+position = Vector2(1533, 463)
 scale = Vector2(1.1177043, 1.1994845)
 texture = ExtResource("1_gdtdo")
 
 [node name="Label" type="Label" parent="ColorRect"]
+modulate = Color(0.4670183, 0.13850623, 0, 1)
 layout_mode = 0
-offset_left = 97.0
-offset_top = 160.0
-offset_right = 1084.0
-offset_bottom = 477.0
+offset_left = 458.0
+offset_top = 100.0
+offset_right = 1147.0
+offset_bottom = 571.0
 theme_override_fonts/font = ExtResource("2_3upud")
 theme_override_font_sizes/font_size = 62
 text = "You just saved the Earth!
 
 The council of living creatures thanks you alot"
-autowrap_mode = 1
+autowrap_mode = 2
 
 [node name="Thorfinn" type="Sprite2D" parent="ColorRect"]
-position = Vector2(1476, -104)
-scale = Vector2(1.1384803, 1.0449345)
+position = Vector2(233, 359)
+scale = Vector2(1.1133577, 1.0584149)
 texture = ExtResource("3_fjirw")
 
 [node name="Download11RemovebgPreview" type="Sprite2D" parent="ColorRect"]
-position = Vector2(987, 511)
-scale = Vector2(0.4353612, 0.4556962)
+position = Vector2(1079, 556)
+scale = Vector2(0.28802294, 0.30379748)
 texture = ExtResource("4_y5f0o")

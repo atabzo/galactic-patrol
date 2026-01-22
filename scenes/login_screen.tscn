@@ -6,18 +6,18 @@
 [node name="login-screen" type="Node2D"]
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(589.00006, 396)
-scale = Vector2(1.0195441, 1.1101365)
+position = Vector2(585, 330.00003)
+scale = Vector2(0.92660546, 0.9456523)
 texture = ExtResource("1_e8ckn")
 
 [node name="Label" type="Label" parent="."]
 modulate = Color(1, 0, 0, 1)
-offset_left = 184.0
-offset_top = 290.0
-offset_right = 1005.0
-offset_bottom = 533.0
+offset_left = 188.0
+offset_top = 250.0
+offset_right = 1009.0
+offset_bottom = 493.0
 theme_override_fonts/font = ExtResource("2_8q002")
-theme_override_font_sizes/font_size = 99
+theme_override_font_sizes/font_size = 90
 text = "gladiators of space"
 horizontal_alignment = 1
 autowrap_mode = 2
