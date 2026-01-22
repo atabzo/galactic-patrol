@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://deyskvyeyn63v"
-path="res://.godot/imported/moon.png-508b1787ac02b8f83c44695196033c3c.ctex"
+uid="uid://b0xixo52hn7c0"
+path="res://.godot/imported/thorfinn.png-2c0971eb024863432092144976bb2c9f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/moon.png"
-dest_files=["res://.godot/imported/moon.png-508b1787ac02b8f83c44695196033c3c.ctex"]
+source_file="res://images/end-screen icons/thorfinn.png"
+dest_files=["res://.godot/imported/thorfinn.png-2c0971eb024863432092144976bb2c9f.ctex"]
 
 [params]
 

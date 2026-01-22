@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://3ftjinsp46ma"]
+[gd_scene load_steps=6 format=3 uid="uid://3ftjinsp46ma"]
 
 [ext_resource type="Texture2D" uid="uid://bwfus36c2wqji" path="res://images/jupiter.png" id="1_sgm8m"]
 [ext_resource type="Texture2D" uid="uid://deyskvyeyn63v" path="res://images/moon.png" id="2_ncoji"]
 [ext_resource type="Texture2D" uid="uid://kthepyg6h6rs" path="res://images/neptune.png" id="3_8j55i"]
+[ext_resource type="Texture2D" uid="uid://ucotg81torpv" path="res://imgs-yay/download__27_-removebg-preview.png" id="4_0hu8o"]
 [ext_resource type="Texture2D" uid="uid://l53ckwkby1fc" path="res://images/moon-2.png" id="4_e7l5m"]
 
 [node name="planets" type="Node2D"]
@@ -19,9 +20,13 @@ scale = Vector2(0.131024, 0.12550199)
 texture = ExtResource("2_ncoji")
 
 [node name="neptune" type="Sprite2D" parent="."]
-position = Vector2(722, 146)
+position = Vector2(14.000122, 18)
 scale = Vector2(0.3022058, 0.30129623)
 texture = ExtResource("3_8j55i")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(382, 210)
+texture = ExtResource("4_0hu8o")
 
 [node name="moon" type="Sprite2D" parent="."]
 position = Vector2(1051, 102)

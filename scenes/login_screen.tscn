@@ -1,45 +1,29 @@
-[gd_scene load_steps=6 format=3 uid="uid://b6cl3fx42or86"]
+[gd_scene load_steps=4 format=3 uid="uid://b6cl3fx42or86"]
 
-[ext_resource type="Texture2D" uid="uid://c8xopbjd3u200" path="res://images-2/image 2.png" id="1_8q002"]
 [ext_resource type="Texture2D" uid="uid://dt6r5velbhri7" path="res://images/stars.png" id="1_e8ckn"]
-[ext_resource type="FontFile" uid="uid://bn48xop4fcbqn" path="res://fonts/Playfair_9pt_SemiCondensed-Black.ttf" id="3_8q002"]
-[ext_resource type="Texture2D" uid="uid://c2dwwjqa6kjma" path="res://images-2/download__5_-removebg-preview.png" id="4_mhqwn"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_h6k8t"]
-size = Vector2(1195, 718)
+[ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="2_8q002"]
+[ext_resource type="Texture2D" path="res://images-2/cosmos.jpg" id="2_dtwsp"]
 
 [node name="login-screen" type="Node2D"]
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(578.25, 326.25)
+scale = Vector2(1.6183673, 1.7096386)
+texture = ExtResource("2_dtwsp")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(569, 314)
-shape = SubResource("RectangleShape2D_h6k8t")
-debug_color = Color(0.079102226, 0.25193384, 0.28506592, 1)
-
-[node name="Image2" type="Sprite2D" parent="Area2D"]
-position = Vector2(677.0001, 310)
-scale = Vector2(0.9387255, 0.9463576)
-texture = ExtResource("1_8q002")
-
-[node name="Stars" type="Sprite2D" parent="Area2D"]
-position = Vector2(987, 185)
-texture = ExtResource("1_e8ckn")
-
-[node name="Label" type="Label" parent="Area2D"]
-offset_left = 25.0
-offset_top = 12.0
-offset_right = 75.0
-offset_bottom = 35.0
-theme_override_fonts/font = ExtResource("3_8q002")
+[node name="Label" type="Label" parent="Sprite2D"]
+modulate = Color(0.061394386, 0.10918399, 0.13055071, 1)
+offset_left = -488.30075
+offset_top = -113.03559
+offset_right = 361.32095
+offset_bottom = 180.96442
+theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 79
-text = "saving the cosmos :)"
+text = "save
+the
+cosmos"
+horizontal_alignment = 2
 
-[node name="Download5RemovebgPreview" type="Sprite2D" parent="."]
-position = Vector2(837, 389)
-texture = ExtResource("4_mhqwn")
-
-[node name="Image2" type="Sprite2D" parent="."]
-position = Vector2(768.5, 311.75)
-scale = Vector2(0.9191176, 0.9410596)
-texture = ExtResource("1_8q002")
+[node name="Stars" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(431.1444, 98.70508)
+texture = ExtResource("1_e8ckn")

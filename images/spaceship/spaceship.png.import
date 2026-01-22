@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxoyen5vfcfds"
-path="res://.godot/imported/download__6_-removebg-preview.png-e0b36f597357aacccb0b8e7f72f852f8.ctex"
+uid="uid://gql6ablxpiw1"
+path="res://.godot/imported/spaceship.png-475106462e95acfcfb3735679e70d47f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images-2/download__6_-removebg-preview.png"
-dest_files=["res://.godot/imported/download__6_-removebg-preview.png-e0b36f597357aacccb0b8e7f72f852f8.ctex"]
+source_file="res://images/spaceship/spaceship.png"
+dest_files=["res://.godot/imported/spaceship.png-475106462e95acfcfb3735679e70d47f.ctex"]
 
 [params]
 

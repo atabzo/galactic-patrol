@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgrnb4ml2oy8a"
-path="res://.godot/imported/download__1_-removebg-preview.png-2b62f497a2e881b38d1bbc45aac433ee.ctex"
+uid="uid://bsm14rh2m31gm"
+path="res://.godot/imported/stars.jpg-5b2f37ca6fd23ddae2f3c652dbdc13c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images-2/download__1_-removebg-preview.png"
-dest_files=["res://.godot/imported/download__1_-removebg-preview.png-2b62f497a2e881b38d1bbc45aac433ee.ctex"]
+source_file="res://images/backdrops/stars.jpg"
+dest_files=["res://.godot/imported/stars.jpg-5b2f37ca6fd23ddae2f3c652dbdc13c8.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bh20df7lljpqp"
-path="res://.godot/imported/background.jpg-fecfc4c19b565abc1b6227560c1dede4.ctex"
+uid="uid://bu02wkssot1nr"
+path="res://.godot/imported/shiny moon.png-b296196a513f5dc5d200ea5951088fad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/background.jpg"
-dest_files=["res://.godot/imported/background.jpg-fecfc4c19b565abc1b6227560c1dede4.ctex"]
+source_file="res://images/planets/shiny moon.png"
+dest_files=["res://.godot/imported/shiny moon.png-b296196a513f5dc5d200ea5951088fad.ctex"]
 
 [params]
 

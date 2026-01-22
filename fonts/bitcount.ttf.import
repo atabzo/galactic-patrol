@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bn48xop4fcbqn"
-path="res://.godot/imported/Playfair_9pt_SemiCondensed-Black.ttf-b8556fd5278fd35eab646eb891700369.fontdata"
+uid="uid://dkkllk7rn2lwp"
+path="res://.godot/imported/bitcount.ttf-7bb9c59c4ad4edda0c18013fc1b5cd3b.fontdata"
 
 [deps]
 
-source_file="res://fonts/Playfair_9pt_SemiCondensed-Black.ttf"
-dest_files=["res://.godot/imported/Playfair_9pt_SemiCondensed-Black.ttf-b8556fd5278fd35eab646eb891700369.fontdata"]
+source_file="res://fonts/bitcount.ttf"
+dest_files=["res://.godot/imported/bitcount.ttf-7bb9c59c4ad4edda0c18013fc1b5cd3b.fontdata"]
 
 [params]
 

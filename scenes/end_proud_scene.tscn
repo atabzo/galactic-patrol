@@ -1,22 +1,43 @@
-[gd_scene load_steps=3 format=3 uid="uid://b4uwhsgn63755"]
+[gd_scene load_steps=5 format=3 uid="uid://b4uwhsgn63755"]
 
-[ext_resource type="Texture2D" uid="uid://bgrnb4ml2oy8a" path="res://images-2/download__1_-removebg-preview.png" id="1_gdtdo"]
-[ext_resource type="Texture2D" uid="uid://uxvbqqmqfs7j" path="res://images-2/download (1).jpg" id="2_x5ct6"]
+[ext_resource type="Texture2D" path="res://images-2/download__1_-removebg-preview.png" id="1_gdtdo"]
+[ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="2_3upud"]
+[ext_resource type="Texture2D" path="res://images-2/thorfinn.png" id="3_fjirw"]
+[ext_resource type="Texture2D" path="res://images-2/download__11_-removebg-preview.png" id="4_y5f0o"]
 
 [node name="end-proud-scene" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -18.0
-offset_top = -9.0
-offset_right = 1171.0
-offset_bottom = 661.0
-color = Color(0.7020265, 0.73649985, 1, 1)
+offset_left = -2.0
+offset_top = -11.0
+offset_right = 1187.0
+offset_bottom = 659.0
+color = Color(0.39607844, 0.2627451, 0.12941177, 1)
 
 [node name="Download1RemovebgPreview" type="Sprite2D" parent="ColorRect"]
-position = Vector2(269, 434)
+position = Vector2(1545, 484.00006)
+scale = Vector2(1.1177043, 1.1994845)
 texture = ExtResource("1_gdtdo")
 
-[node name="Download(1)" type="Sprite2D" parent="ColorRect"]
-position = Vector2(1680, 483.00003)
-scale = Vector2(0.5816327, 0.6239193)
-texture = ExtResource("2_x5ct6")
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 131.0
+offset_top = 141.0
+offset_right = 1087.0
+offset_bottom = 612.0
+theme_override_fonts/font = ExtResource("2_3upud")
+theme_override_font_sizes/font_size = 62
+text = "You just saved the Earth!
+
+The council of living creatures thanks you alot"
+autowrap_mode = 1
+
+[node name="Thorfinn" type="Sprite2D" parent="ColorRect"]
+position = Vector2(1476, -104)
+scale = Vector2(1.1384803, 1.0449345)
+texture = ExtResource("3_fjirw")
+
+[node name="Download11RemovebgPreview" type="Sprite2D" parent="ColorRect"]
+position = Vector2(987, 511)
+scale = Vector2(0.4353612, 0.4556962)
+texture = ExtResource("4_y5f0o")
