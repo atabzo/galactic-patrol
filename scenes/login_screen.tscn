@@ -44,7 +44,7 @@ skew = -0.011759281
 texture = ExtResource("4_5m8ma")
 
 [node name="DecorativeStars3" type="Sprite2D" parent="reactive-paper/Paper"]
-position = Vector2(-416.2008, 137.53065)
+position = Vector2(-410.43478, 138.468)
 rotation = 0.099358484
 scale = Vector2(0.44479674, 0.42765415)
 skew = -0.013244033
@@ -53,9 +53,9 @@ texture = ExtResource("4_5m8ma")
 [node name="Label" type="Label" parent="reactive-paper/Paper"]
 modulate = Color(1, 0, 0, 1)
 offset_left = -406.40604
-offset_top = -105.668335
+offset_top = -105.668274
 offset_right = 414.59396
-offset_bottom = 137.33167
+offset_bottom = 137.33173
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 90
 text = "gladiators of space"

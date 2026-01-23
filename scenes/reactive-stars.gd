@@ -1,16 +1,19 @@
 extends Area2D
 
-var sprite: Sprite2D
+@onready var sprite: Sprite2D = $DecorativeStars
+@onready var star_two = $DecorativeStars/DecorativeStars2 # Path to your second star
+
 var original_scale: Vector2
 var hover_scale: Vector2
 
 func _ready():
-	sprite = $DecorativeStars
 	original_scale = sprite.scale
 	hover_scale = sprite.scale * 1.1
-	
 	mouse_entered.connect(_on_mouse_entered)
 	mouse_exited.connect(_on_mouse_exited)
+
+func _process(delta):
+	star_two.rotation += 0.5 * delta
 
 func _on_mouse_entered():
 	var tween = create_tween()

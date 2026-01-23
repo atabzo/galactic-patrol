@@ -1,5 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://bg8jcvv5bafss"]
 
+[ext_resource type="Script" uid="uid://c88w870sfd28f" path="res://scenes/message_window.gd" id="1_aop0r"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_tm3jx"]
 [ext_resource type="Texture2D" uid="uid://d1q15rraqba0v" path="res://images/icons/flower.png" id="2_8slss"]
 
@@ -15,19 +16,17 @@ border_color = Color(0.8216251, 0.7587016, 0.9880515, 1)
 bg_color = Color(1.540184e-06, 0.64289296, 0.92536026, 1)
 border_width_bottom = 5
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_auw6i"]
-bg_color = Color(0.35634407, 0.67791075, 1, 1)
+[node name="notification-window" type="Node2D"]
 
-[node name="notification window" type="Node2D"]
-
-[node name="Panel" type="Panel" parent="."]
-offset_left = -228.0
-offset_top = -211.0
-offset_right = 248.0
-offset_bottom = 309.0
+[node name="message-window" type="Panel" parent="."]
+offset_left = 86.0
+offset_top = 67.0
+offset_right = 562.0
+offset_bottom = 587.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_8slss")
+script = ExtResource("1_aop0r")
 
-[node name="Panel2" type="Panel" parent="Panel"]
+[node name="header" type="Panel" parent="message-window"]
 layout_mode = 0
 offset_left = 2.0
 offset_top = 3.0
@@ -35,7 +34,7 @@ offset_right = 472.0
 offset_bottom = 53.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_aop0r")
 
-[node name="Label" type="Label" parent="Panel"]
+[node name="main-text" type="Label" parent="message-window"]
 layout_mode = 0
 offset_left = 17.0
 offset_top = 9.0
@@ -45,25 +44,17 @@ theme_override_fonts/font = ExtResource("1_tm3jx")
 theme_override_font_sizes/font_size = 30
 text = "Hey, You've a message!"
 
-[node name="Panel" type="Panel" parent="Panel"]
+[node name="button" type="Button" parent="message-window"]
 layout_mode = 0
-offset_left = 176.0
-offset_top = 441.0
-offset_right = 298.0
-offset_bottom = 496.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_auw6i")
-
-[node name="Label" type="Label" parent="Panel/Panel"]
-layout_mode = 0
-offset_left = 22.0
-offset_top = 9.0
-offset_right = 130.0
-offset_bottom = 64.0
+offset_left = 161.0
+offset_top = 428.0
+offset_right = 286.0
+offset_bottom = 488.0
 theme_override_fonts/font = ExtResource("1_tm3jx")
-theme_override_font_sizes/font_size = 30
+theme_override_font_sizes/font_size = 34
 text = "Okay!"
 
-[node name="Flower" type="Sprite2D" parent="Panel/Panel"]
-position = Vector2(290, -412)
-scale = Vector2(0.32293826, 0.29830095)
+[node name="flower" type="Sprite2D" parent="message-window"]
+position = Vector2(464, 33)
+scale = Vector2(0.3078609, 0.2753641)
 texture = ExtResource("2_8slss")

@@ -24,7 +24,7 @@ texture = ExtResource("2_aqimm")
 script = ExtResource("3_ttfkt")
 
 [node name="planets" parent="." instance=ExtResource("3_rwe2g")]
-position = Vector2(10, 57)
+position = Vector2(8, -3)
 
 [node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
 position = Vector2(539, 619.00006)

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://5itikjci4prl"]
 
-[ext_resource type="Script" uid="uid://b44ujpmhamftr" path="res://scripts/spaceship.gd" id="2_ae4p7"]
+[ext_resource type="Script" uid="uid://b44ujpmhamftr" path="res://scenes/spaceship.gd" id="2_ae4p7"]
 [ext_resource type="Texture2D" uid="uid://cn8flh7miak4r" path="res://images/spaceship/ufo.png" id="2_xs8u7"]
 
 [sub_resource type="GDScript" id="GDScript_ae4p7"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://3ftjinsp46ma"]
+[gd_scene load_steps=9 format=3 uid="uid://3ftjinsp46ma"]
 
 [ext_resource type="Texture2D" uid="uid://bffkt83ukd43y" path="res://images/planets/neptune.png" id="1_ex1bp"]
 [ext_resource type="Texture2D" uid="uid://cxuaavicd10jf" path="res://images/planets/moon.png" id="2_bkhmr"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://chhltb5ahu4n5" path="res://images/planets/mars.png" id="6_ex1bp"]
 [ext_resource type="Texture2D" uid="uid://ha0rxqjolob8" path="res://images/planets/sun.png" id="7_bkhmr"]
 [ext_resource type="Texture2D" uid="uid://bu02wkssot1nr" path="res://images/planets/shiny moon.png" id="7_ex1bp"]
+[ext_resource type="Texture2D" uid="uid://25rknlij1aal" path="res://images/earth-drawing.png" id="8_bkhmr"]
 
 [node name="planets" type="Node2D"]
 
@@ -44,3 +45,7 @@ texture = ExtResource("7_bkhmr")
 position = Vector2(906, 470.00003)
 scale = Vector2(0.2801205, 0.26807237)
 texture = ExtResource("7_ex1bp")
+
+[node name="EarthDrawing" type="Sprite2D" parent="."]
+position = Vector2(418, 269)
+texture = ExtResource("8_bkhmr")
