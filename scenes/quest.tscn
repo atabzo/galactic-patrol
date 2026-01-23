@@ -14,9 +14,9 @@ scale = Vector2(1.8828123, 1.9694444)
 texture = ExtResource("1_7fbp7")
 
 [node name="fire" type="Sprite2D" parent="."]
-position = Vector2(535.00006, 529.9999)
+position = Vector2(523, 504.99997)
 rotation = 0.5661373
-scale = Vector2(0.37444508, 0.51073414)
+scale = Vector2(0.20988414, 0.23116943)
 skew = -0.015207529
 texture = ExtResource("2_aqimm")
 script = ExtResource("3_ttfkt")
