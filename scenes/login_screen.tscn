@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://b6cl3fx42or86"]
+[gd_scene load_steps=8 format=3 uid="uid://b6cl3fx42or86"]
 
 [ext_resource type="Texture2D" uid="uid://bv11n747a3po0" path="res://images/welcome-screen/black-background.jpg" id="1_kcwbp"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="2_8q002"]
 [ext_resource type="Texture2D" uid="uid://dpega4ifxil4i" path="res://images/welcome-screen/paper.png" id="2_dtwsp"]
 [ext_resource type="Script" uid="uid://drgavchpgd3b" path="res://scenes/paper_animation.gd" id="2_kcwbp"]
 [ext_resource type="Texture2D" uid="uid://dh0w2gmc6scsd" path="res://images/welcome-screen/decorative-stars.png" id="4_5m8ma"]
+[ext_resource type="Script" uid="uid://u8ajlalniwrq" path="res://scenes/play-button.gd" id="6_dtwsp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dtwsp"]
 size = Vector2(742.28357, 527.68494)
@@ -16,52 +17,59 @@ position = Vector2(584.5609, 326.2919)
 scale = Vector2(0.7417989, 0.76379573)
 texture = ExtResource("1_kcwbp")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="reactive-paper" type="Area2D" parent="."]
 position = Vector2(578.5133, 342.51996)
 scale = Vector2(0.992882, 0.91342413)
 script = ExtResource("2_kcwbp")
 
-[node name="Paper" type="Sprite2D" parent="Area2D"]
+[node name="Paper" type="Sprite2D" parent="reactive-paper"]
 position = Vector2(0, 3.0517578e-05)
 scale = Vector2(1, 0.99999994)
 texture = ExtResource("2_dtwsp")
 flip_h = true
 flip_v = true
 
-[node name="DecorativeStars" type="Sprite2D" parent="Area2D/Paper"]
-position = Vector2(333.27124, -213.19482)
-rotation = 0.38203385
+[node name="DecorativeStars" type="Sprite2D" parent="reactive-paper/Paper"]
+position = Vector2(340.8968, -216.177)
+rotation = 1.4992378
 scale = Vector2(0.87837785, 0.9273491)
 skew = -0.04720235
 texture = ExtResource("4_5m8ma")
 
-[node name="DecorativeStars2" type="Sprite2D" parent="Area2D/Paper"]
-position = Vector2(-329.7904, 225.3506)
+[node name="DecorativeStars2" type="Sprite2D" parent="reactive-paper/Paper"]
+position = Vector2(-321.0368, 225.4126)
 rotation = 1.4944369
 scale = Vector2(0.6792732, 0.58373445)
 skew = -0.011759281
 texture = ExtResource("4_5m8ma")
 
-[node name="DecorativeStars3" type="Sprite2D" parent="Area2D/Paper"]
-position = Vector2(-427.28784, 137.43172)
+[node name="DecorativeStars3" type="Sprite2D" parent="reactive-paper/Paper"]
+position = Vector2(-416.2008, 137.53065)
 rotation = 0.099358484
 scale = Vector2(0.44479674, 0.42765415)
 skew = -0.013244033
 texture = ExtResource("4_5m8ma")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(2.0011597, -3.8535767)
-scale = Vector2(1, 0.99999964)
-shape = SubResource("RectangleShape2D_dtwsp")
-
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="reactive-paper/Paper"]
 modulate = Color(1, 0, 0, 1)
-offset_left = 175.0
-offset_top = 246.0
-offset_right = 996.0
-offset_bottom = 489.0
+offset_left = -406.40604
+offset_top = -105.668335
+offset_right = 414.59396
+offset_bottom = 137.33167
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 90
 text = "gladiators of space"
 horizontal_alignment = 1
 autowrap_mode = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="reactive-paper"]
+position = Vector2(14.590527, 13.66293)
+scale = Vector2(1, 0.99999964)
+shape = SubResource("RectangleShape2D_dtwsp")
+
+[node name="play-button" type="Button" parent="."]
+offset_left = 433.0
+offset_top = 462.0
+offset_right = 733.0
+offset_bottom = 576.0
+script = ExtResource("6_dtwsp")
