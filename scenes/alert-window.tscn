@@ -4,15 +4,15 @@
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="2_o3h3r"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_75e3t"]
-bg_color = Color(0, 0.23036253, 0.25869745, 1)
+bg_color = Color(0.40392157, 0, 0.02745098, 1)
 border_width_left = 5
 border_width_top = 5
 border_width_right = 5
 border_width_bottom = 5
-border_color = Color(0.8216251, 0.7587016, 0.9880515, 1)
+border_color = Color(0.9451732, 0.78595066, 0, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qq2dr"]
-bg_color = Color(1.540184e-06, 0.64289296, 0.92536026, 1)
+bg_color = Color(0.94509804, 0.78431374, 0, 1)
 border_width_bottom = 5
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b4bpw"]
@@ -36,16 +36,17 @@ offset_bottom = 53.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_qq2dr")
 
 [node name="Alert" type="Sprite2D" parent="Panel"]
-position = Vector2(28.374989, 23.625)
-scale = Vector2(0.14649998, 0.12550002)
+modulate = Color(0.0133375125, 1, 0.41063604, 1)
+position = Vector2(168.00002, 29)
+scale = Vector2(0.10924999, 0.10275002)
 texture = ExtResource("1_ohi58")
 
 [node name="Label" type="Label" parent="Panel"]
 layout_mode = 0
-offset_left = 62.0
-offset_top = 9.0
-offset_right = 163.0
-offset_bottom = 57.0
+offset_left = 192.0
+offset_top = 12.0
+offset_right = 293.0
+offset_bottom = 60.0
 theme_override_fonts/font = ExtResource("2_o3h3r")
 theme_override_font_sizes/font_size = 30
 text = "Alert!"

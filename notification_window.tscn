@@ -21,10 +21,10 @@ bg_color = Color(0.35634407, 0.67791075, 1, 1)
 [node name="notification window" type="Node2D"]
 
 [node name="Panel" type="Panel" parent="."]
-offset_left = -222.0
-offset_top = -203.0
-offset_right = 254.0
-offset_bottom = 317.0
+offset_left = 471.0
+offset_top = 54.0
+offset_right = 947.0
+offset_bottom = 574.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_8slss")
 
 [node name="Panel2" type="Panel" parent="Panel"]
@@ -38,9 +38,9 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_aop0r")
 [node name="Label" type="Label" parent="Panel"]
 layout_mode = 0
 offset_left = 62.0
-offset_top = 8.0
+offset_top = 9.0
 offset_right = 425.0
-offset_bottom = 56.0
+offset_bottom = 57.0
 theme_override_fonts/font = ExtResource("1_tm3jx")
 theme_override_font_sizes/font_size = 30
 text = "Hey, You've a message!"
