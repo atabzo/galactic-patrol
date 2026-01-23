@@ -1,7 +1,7 @@
 extends Button
 
 # Path to the scene you want to load
-@export var next_scene: String = "res://scenes/reactive-stars-ending-scene.tscn"
+@export var next_scene: String = "res://scenes/ending_scene.tscn"
 
 func _ready():
 	pressed.connect(_on_button_pressed)

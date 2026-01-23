@@ -1,10 +1,12 @@
-[gd_scene load_steps=6 format=3 uid="uid://cx4nvljesj1fl"]
+[gd_scene load_steps=8 format=3 uid="uid://cx4nvljesj1fl"]
 
 [ext_resource type="Texture2D" uid="uid://ngqqjbinr41p" path="res://images/backdrops/background.jpg" id="1_7fbp7"]
 [ext_resource type="Texture2D" uid="uid://nx5gtlfhwk6w" path="res://images/icons/fire.png" id="2_aqimm"]
 [ext_resource type="PackedScene" uid="uid://5itikjci4prl" path="res://scenes/spaceship.tscn" id="2_rwe2g"]
 [ext_resource type="PackedScene" uid="uid://3ftjinsp46ma" path="res://scenes/planets.tscn" id="3_rwe2g"]
 [ext_resource type="Script" uid="uid://bthfqeh4aq2jt" path="res://scenes/fire.gd" id="3_ttfkt"]
+[ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="6_ol5eh"]
+[ext_resource type="Script" uid="uid://bsvahj5uil5l3" path="res://scenes/exit-button.gd" id="7_kj15b"]
 
 [node name="cosmos-quest" type="Node2D"]
 
@@ -26,3 +28,13 @@ position = Vector2(10, 57)
 
 [node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
 position = Vector2(539, 619.00006)
+
+[node name="Button" type="Button" parent="."]
+offset_left = 407.0
+offset_top = 14.0
+offset_right = 653.0
+offset_bottom = 119.0
+theme_override_fonts/font = ExtResource("6_ol5eh")
+theme_override_font_sizes/font_size = 53
+text = "exit"
+script = ExtResource("7_kj15b")

@@ -7,7 +7,7 @@
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="5_e15f8"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_br6qk"]
-radius = 87.0919
+radius = 188.00266
 
 [node name="wip-scene" type="Node2D"]
 
@@ -25,7 +25,7 @@ texture = ExtResource("2_e15f8")
 script = ExtResource("3_l1exe")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(927, 488)
+position = Vector2(602, 504)
 shape = SubResource("CircleShape2D_br6qk")
 
 [node name="DecorativeStars" type="Sprite2D" parent="Area2D"]
@@ -49,7 +49,7 @@ offset_bottom = 442.0
 theme_override_colors/font_color = Color(0.15425843, 0.0002937179, 0.36303174, 1)
 theme_override_fonts/font = ExtResource("5_e15f8")
 theme_override_font_sizes/font_size = 41
-text = "so that's all for the first ship, stay tuned I'll make this much better in the next update!!!"
+text = "so that's all for the first ship, stay tuned... I'll improve and polish this with new scenes in the next update!!!"
 autowrap_mode = 2
 
 [node name="Button" type="Button" parent="."]
