@@ -62,14 +62,17 @@ text = "gladiators of space"
 horizontal_alignment = 1
 autowrap_mode = 2
 
+[node name="play-button" type="Button" parent="reactive-paper/Paper"]
+offset_left = -160.6568
+offset_top = 118.76193
+offset_right = 139.3432
+offset_bottom = 213.76193
+theme_override_fonts/font = ExtResource("2_8q002")
+theme_override_font_sizes/font_size = 34
+text = "PLAYYY?"
+script = ExtResource("6_dtwsp")
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="reactive-paper"]
 position = Vector2(14.590527, 13.66293)
 scale = Vector2(1, 0.99999964)
 shape = SubResource("RectangleShape2D_dtwsp")
-
-[node name="play-button" type="Button" parent="."]
-offset_left = 433.0
-offset_top = 462.0
-offset_right = 733.0
-offset_bottom = 576.0
-script = ExtResource("6_dtwsp")

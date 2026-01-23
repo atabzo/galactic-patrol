@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=3 uid="uid://b4uwhsgn63755"]
+
+[ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_u14vp"]
+[ext_resource type="Texture2D" uid="uid://b0xixo52hn7c0" path="res://images/end-screen icons/thorfinn.png" id="2_agp5w"]
+[ext_resource type="Texture2D" uid="uid://bde1gf81cvxiw" path="res://images/end-screen icons/stars.png" id="3_i70nl"]
+[ext_resource type="Texture2D" uid="uid://d28toeluan76x" path="res://images/end-screen icons/grateful.png" id="4_i70nl"]
+[ext_resource type="Script" uid="uid://cjmngb1joepqc" path="res://scenes/ending-scene-button.gd" id="5_qar6k"]
+
+[node name="end-proud-scene" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -24.0
+offset_top = -17.0
+offset_right = 1165.0
+offset_bottom = 653.0
+color = Color(0.39607844, 1, 0.12941177, 1)
+
+[node name="text" type="Label" parent="ColorRect"]
+modulate = Color(0.4670183, 0.13850623, 0, 1)
+layout_mode = 0
+offset_left = 466.0
+offset_top = 58.0
+offset_right = 1154.0
+offset_bottom = 529.0
+theme_override_fonts/font = ExtResource("1_u14vp")
+theme_override_font_sizes/font_size = 62
+text = "Yayyy... You just saved the Earth!!!
+
+The residents of earth is dancing in joy :)"
+autowrap_mode = 2
+
+[node name="Thorfinn" type="Sprite2D" parent="ColorRect"]
+position = Vector2(244, 288.00003)
+scale = Vector2(1.1043516, 1.0075078)
+texture = ExtResource("2_agp5w")
+offset = Vector2(-50.298294, 72.750305)
+
+[node name="Stars" type="Sprite2D" parent="ColorRect/Thorfinn"]
+position = Vector2(111.60395, -148.38596)
+scale = Vector2(0.5423997, 0.55781215)
+texture = ExtResource("3_i70nl")
+
+[node name="gratitude-icon" type="Sprite2D" parent="ColorRect"]
+position = Vector2(1073, 557)
+scale = Vector2(0.28802294, 0.30379748)
+texture = ExtResource("4_i70nl")
+
+[node name="Button" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 737.0
+offset_top = 525.0
+offset_right = 987.0
+offset_bottom = 621.0
+theme_override_fonts/font = ExtResource("1_u14vp")
+theme_override_font_sizes/font_size = 47
+text = "continue"
+script = ExtResource("5_qar6k")
