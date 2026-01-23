@@ -13,9 +13,9 @@ texture = ExtResource("1_e8ckn")
 [node name="Label" type="Label" parent="."]
 modulate = Color(1, 0, 0, 1)
 offset_left = 188.0
-offset_top = 250.0
+offset_top = 241.0
 offset_right = 1009.0
-offset_bottom = 493.0
+offset_bottom = 484.0
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 90
 text = "gladiators of space"

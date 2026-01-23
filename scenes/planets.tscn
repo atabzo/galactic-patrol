@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=3 uid="uid://3ftjinsp46ma"]
 
-[ext_resource type="Texture2D" path="res://images/neptune.png" id="3_8j55i"]
+[ext_resource type="Texture2D" uid="uid://bffkt83ukd43y" path="res://images/planets/neptune.png" id="1_ex1bp"]
+[ext_resource type="Texture2D" uid="uid://cxuaavicd10jf" path="res://images/planets/moon.png" id="2_bkhmr"]
 [ext_resource type="Texture2D" uid="uid://c0o1fymb8adas" path="res://images/planets/blue.png" id="4_0hu8o"]
-[ext_resource type="Texture2D" path="res://images/moon-2.png" id="4_e7l5m"]
 [ext_resource type="Texture2D" uid="uid://bw4kbr0a5tsw0" path="res://images/planets/saturn.png" id="5_ex1bp"]
 [ext_resource type="Texture2D" uid="uid://chhltb5ahu4n5" path="res://images/planets/mars.png" id="6_ex1bp"]
 [ext_resource type="Texture2D" uid="uid://ha0rxqjolob8" path="res://images/planets/sun.png" id="7_bkhmr"]
@@ -11,14 +11,14 @@
 [node name="planets" type="Node2D"]
 
 [node name="neptune" type="Sprite2D" parent="."]
-position = Vector2(1032, 249)
+position = Vector2(1051.0001, 296)
 scale = Vector2(0.16176467, 0.1550926)
-texture = ExtResource("3_8j55i")
+texture = ExtResource("1_ex1bp")
 
 [node name="moon" type="Sprite2D" parent="."]
 position = Vector2(77, 272)
 scale = Vector2(0.1450455, 0.14247356)
-texture = ExtResource("4_e7l5m")
+texture = ExtResource("2_bkhmr")
 
 [node name="blue-planet" type="Sprite2D" parent="."]
 position = Vector2(147.00002, 476)
@@ -26,8 +26,8 @@ scale = Vector2(0.5620776, 0.578199)
 texture = ExtResource("4_0hu8o")
 
 [node name="saturn" type="Sprite2D" parent="."]
-position = Vector2(1075, 57.99997)
-scale = Vector2(0.20718506, 0.19119146)
+position = Vector2(1083, 84)
+scale = Vector2(0.28469485, 0.28296852)
 texture = ExtResource("5_ex1bp")
 
 [node name="mars" type="Sprite2D" parent="."]
@@ -40,7 +40,7 @@ position = Vector2(833, 99)
 scale = Vector2(0.42391303, 0.45383674)
 texture = ExtResource("7_bkhmr")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="shiny-planet" type="Sprite2D" parent="."]
 position = Vector2(906, 470.00003)
 scale = Vector2(0.2801205, 0.26807237)
 texture = ExtResource("7_ex1bp")
