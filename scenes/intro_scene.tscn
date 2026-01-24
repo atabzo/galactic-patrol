@@ -32,13 +32,13 @@ scale = Vector2(1.3678011, 0.6796296)
 texture = ExtResource("2_01j2m")
 
 [node name="LovelyFlowers(2)" type="Sprite2D" parent="."]
-position = Vector2(883, 793.00006)
+position = Vector2(1112, 832)
 scale = Vector2(0.62092394, 0.6480978)
 texture = ExtResource("1_jkhwn")
 
 [node name="LovelyFlowers(5)" type="Sprite2D" parent="."]
-position = Vector2(495.00006, 690)
-scale = Vector2(0.4728261, 0.41168478)
+position = Vector2(716.5, 695.75006)
+scale = Vector2(0.41983694, 0.41779894)
 texture = ExtResource("2_tij55")
 
 [node name="LovelyFlowers(6)" type="Sprite2D" parent="."]
@@ -47,31 +47,31 @@ scale = Vector2(0.3857143, 0.4189189)
 texture = ExtResource("3_8wqor")
 
 [node name="LovelyFlowers(7)" type="Sprite2D" parent="."]
-position = Vector2(1323, 434.00003)
+position = Vector2(1271, 446.00003)
 scale = Vector2(0.79776245, 0.75289255)
 texture = ExtResource("4_0f06d")
 
 [node name="Label" type="Label" parent="."]
 modulate = Color(0.17438853, 0.2298995, 1.92523e-07, 1)
-offset_left = 534.0
-offset_top = 215.0
-offset_right = 1215.0
-offset_bottom = 319.0
+offset_left = 536.0
+offset_top = 114.0
+offset_right = 1294.0
+offset_bottom = 357.0
 theme_override_fonts/font = ExtResource("7_f164h")
-theme_override_font_sizes/font_size = 85
-text = "WAIT HOLDON..."
+theme_override_font_sizes/font_size = 100
+text = "hmm? type type type"
 autowrap_mode = 2
 
 [node name="MoreIcons(1)" type="Sprite2D" parent="."]
-position = Vector2(255, 782)
+position = Vector2(251, 805)
 texture = ExtResource("8_01j2m")
 
 [node name="MoreIcons(3)" type="Sprite2D" parent="."]
-position = Vector2(196.00002, 526.00006)
+position = Vector2(194, 551)
 scale = Vector2(0.35568824, 0.356148)
 texture = ExtResource("9_t82ha")
 
 [node name="MoreIcons(6)" type="Sprite2D" parent="."]
-position = Vector2(1792, 605)
+position = Vector2(1657.0001, 644)
 scale = Vector2(1.2069306, 1.0578563)
 texture = ExtResource("10_qt0h2")

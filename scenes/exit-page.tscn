@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://pecmnci3bhci"]
+
+[ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_tkqgx"]
+
+[node name="exit-page" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -25.0
+offset_top = 7.0
+offset_right = 1946.0
+offset_bottom = 1112.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 409.0
+offset_top = 123.0
+offset_right = 1159.0
+offset_bottom = 374.0
+theme_override_fonts/font = ExtResource("1_tkqgx")
+theme_override_font_sizes/font_size = 50
+text = "wait...you're leaving already?"

@@ -1,0 +1,2055 @@
+[gd_scene load_steps=2 format=3 uid="uid://doqhhk0o3kfih"]
+
+[ext_resource type="Texture2D" uid="uid://ngqqjbinr41p" path="res://images/backdrops/background.jpg" id="1_sa53c"]
+
+[node name="cosmos-background" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(578, 326)
+scale = Vector2(1.8828123, 1.9694444)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background"]
+position = Vector2(-361.70947, 507.4672)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background"]
+position = Vector2(638.56793, 2251.3125)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2"]
+position = Vector2(-2.078596, -1721.4973)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background"]
+position = Vector2(627.5222, 31.408298)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background"]
+position = Vector2(616.47205, -5.2701206)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background"]
+position = Vector2(-787.9647, -965.9766)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background"]
+position = Vector2(10686.158, 9034.884)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(-637.47046, 525.533)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background"]
+position = Vector2(638.7329, 288.47586)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background3" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background3" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background3" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background3" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3/Background3/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background3" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3/Background3/Background3"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background/Background/Background/Background/Background/Background/Background/Background2/Background2/Background3/Background3/Background3/Background3/Background3/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2"]
+position = Vector2(599.50336, 587.1361)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background"]
+position = Vector2(26.16066, 1396.6885)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background"]
+position = Vector2(-9.869901, -311.11197)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background/Background/Background2/Background/Background/Background/Background/Background/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2"]
+position = Vector2(634.83026, -18.851196)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background"]
+position = Vector2(-12.667944, -374.73154)
+scale = Vector2(1.0465537, 1.1370859)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2"]
+position = Vector2(634.83026, -18.851196)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2"]
+position = Vector2(634.83026, -18.851196)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(634.83026, -18.851196)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(634.83026, -18.851196)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(634.83026, -18.851196)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background2" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background2"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background2/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background2/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background2/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")
+
+[node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background2/Background/Background/Background/Background2/Background/Background/Background/Background"]
+position = Vector2(1.0622433, -374.72498)
+scale = Vector2(1.0036469, 1.1370494)
+texture = ExtResource("1_sa53c")

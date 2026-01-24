@@ -11,9 +11,9 @@
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -12.0
-offset_top = -2.0
-offset_right = 1177.0
-offset_bottom = 668.0
+offset_top = -17.0
+offset_right = 1189.0
+offset_bottom = 688.0
 color = Color(0.39607844, 1, 0.12941177, 1)
 
 [node name="text" type="Label" parent="ColorRect"]
