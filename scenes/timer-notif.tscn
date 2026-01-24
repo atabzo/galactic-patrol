@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0vjmudueabg1"]
+
+[ext_resource type="PackedScene" uid="uid://bg8jcvv5bafss" path="res://scenes/notification_panels.tscn" id="1_bfyj3"]
+[ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="2_am4cu"]
+
+[node name="timer-notification" type="Node2D"]
+
+[node name="notification-panels" parent="." instance=ExtResource("1_bfyj3")]
+position = Vector2(-582, -177)
+
+[node name="Label" type="Label" parent="notification-panels"]
+offset_left = 1190.0
+offset_top = 324.0
+offset_right = 1641.8638
+offset_bottom = 507.57117
+rotation = -0.006062911
+theme_override_fonts/font = ExtResource("2_am4cu")
+theme_override_font_sizes/font_size = 35
+text = "captain whatever yeah okay bruh nevermind blehhhh	"
+autowrap_mode = 2

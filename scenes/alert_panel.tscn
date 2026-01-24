@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwdilim1wy6xl"]
+
+[ext_resource type="Texture2D" uid="uid://nij1fcoq3ddu" path="res://images/icons/alert.png" id="1_hygi6"]
+[ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="2_d7pn2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6n1ga"]
+bg_color = Color(0.40392157, 0, 0.02745098, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.9451732, 0.78595066, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o1ygj"]
+bg_color = Color(0.94509804, 0.78431374, 0, 1)
+border_width_bottom = 5
+
+[node name="alert-panel" type="Node2D"]
+
+[node name="alert-window" type="Panel" parent="."]
+offset_left = 618.0
+offset_top = 50.0
+offset_right = 1094.0
+offset_bottom = 570.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_6n1ga")
+
+[node name="header" type="Panel" parent="alert-window"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 472.0
+offset_bottom = 53.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_o1ygj")
+
+[node name="alert-icon" type="Sprite2D" parent="alert-window"]
+modulate = Color(0.0133375125, 1, 0.41063604, 1)
+position = Vector2(168.00002, 29)
+scale = Vector2(0.10924999, 0.10275002)
+texture = ExtResource("1_hygi6")
+
+[node name="alert-text" type="Label" parent="alert-window"]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 12.0
+offset_right = 288.0
+offset_bottom = 60.0
+theme_override_fonts/font = ExtResource("2_d7pn2")
+theme_override_font_sizes/font_size = 30
+text = "Alert!"

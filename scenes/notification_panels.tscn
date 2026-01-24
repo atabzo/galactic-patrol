@@ -1,9 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://bg8jcvv5bafss"]
+[gd_scene load_steps=6 format=3 uid="uid://bg8jcvv5bafss"]
 
 [ext_resource type="Script" uid="uid://c88w870sfd28f" path="res://scenes/message_window.gd" id="1_aop0r"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_tm3jx"]
 [ext_resource type="Texture2D" uid="uid://d1q15rraqba0v" path="res://images/icons/flower.png" id="2_8slss"]
-[ext_resource type="Texture2D" uid="uid://nij1fcoq3ddu" path="res://images/icons/alert.png" id="4_auw6i"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8slss"]
 bg_color = Color(0.5523921, 0.03912166, 0.13399476, 1)
@@ -17,25 +16,13 @@ border_color = Color(0.8216251, 0.7587016, 0.9880515, 1)
 bg_color = Color(1.540184e-06, 0.64289296, 0.92536026, 1)
 border_width_bottom = 5
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6aujh"]
-bg_color = Color(0.40392157, 0, 0.02745098, 1)
-border_width_left = 5
-border_width_top = 5
-border_width_right = 5
-border_width_bottom = 5
-border_color = Color(0.9451732, 0.78595066, 0, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6pse0"]
-bg_color = Color(0.94509804, 0.78431374, 0, 1)
-border_width_bottom = 5
-
 [node name="notification-panels" type="Node2D"]
 
 [node name="message-window" type="Panel" parent="."]
-offset_left = 63.0
-offset_top = 43.0
-offset_right = 539.0
-offset_bottom = 563.0
+offset_left = 495.0
+offset_top = 39.0
+offset_right = 971.0
+offset_bottom = 559.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_8slss")
 script = ExtResource("1_aop0r")
 
@@ -71,34 +58,3 @@ text = "Okay!"
 position = Vector2(469, 16)
 scale = Vector2(0.14362118, 0.12991507)
 texture = ExtResource("2_8slss")
-
-[node name="alert-window" type="Panel" parent="."]
-offset_left = 604.0
-offset_top = 52.0
-offset_right = 1080.0
-offset_bottom = 572.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_6aujh")
-
-[node name="header" type="Panel" parent="alert-window"]
-layout_mode = 0
-offset_left = 2.0
-offset_top = 3.0
-offset_right = 472.0
-offset_bottom = 53.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_6pse0")
-
-[node name="alert-icon" type="Sprite2D" parent="alert-window"]
-modulate = Color(0.0133375125, 1, 0.41063604, 1)
-position = Vector2(168.00002, 29)
-scale = Vector2(0.10924999, 0.10275002)
-texture = ExtResource("4_auw6i")
-
-[node name="alert-text" type="Label" parent="alert-window"]
-layout_mode = 0
-offset_left = 187.0
-offset_top = 12.0
-offset_right = 288.0
-offset_bottom = 60.0
-theme_override_fonts/font = ExtResource("1_tm3jx")
-theme_override_font_sizes/font_size = 30
-text = "Alert!"

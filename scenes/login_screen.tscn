@@ -22,6 +22,11 @@ position = Vector2(578.5133, 342.51996)
 scale = Vector2(0.992882, 0.91342413)
 script = ExtResource("2_kcwbp")
 
+[node name="CollisionShape2D" type="CollisionShape2D" parent="reactive-paper"]
+position = Vector2(-4.5456543, -6.043152)
+scale = Vector2(1, 0.99999964)
+shape = SubResource("RectangleShape2D_dtwsp")
+
 [node name="Paper" type="Sprite2D" parent="reactive-paper"]
 position = Vector2(0, 3.0517578e-05)
 scale = Vector2(1, 0.99999994)
@@ -30,7 +35,7 @@ flip_h = true
 flip_v = true
 
 [node name="DecorativeStars" type="Sprite2D" parent="reactive-paper/Paper"]
-position = Vector2(369.11404, -219.52563)
+position = Vector2(391.27176, -226.09431)
 rotation = 1.4992378
 scale = Vector2(0.87837785, 0.9273491)
 skew = -0.04720235
@@ -62,7 +67,7 @@ text = "gladiators of space"
 horizontal_alignment = 1
 autowrap_mode = 2
 
-[node name="play-button" type="Button" parent="reactive-paper/Paper"]
+[node name="Button" type="Button" parent="reactive-paper/Paper"]
 offset_left = -160.6568
 offset_top = 118.76193
 offset_right = 139.3432
@@ -71,8 +76,3 @@ theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 34
 text = "PLAYYY?"
 script = ExtResource("6_dtwsp")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="reactive-paper"]
-position = Vector2(-4.5456676, -6.043151)
-scale = Vector2(1, 0.99999964)
-shape = SubResource("RectangleShape2D_dtwsp")

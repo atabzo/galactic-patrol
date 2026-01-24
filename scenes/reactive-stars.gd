@@ -12,8 +12,6 @@ func _ready():
 	mouse_entered.connect(_on_mouse_entered)
 	mouse_exited.connect(_on_mouse_exited)
 
-func _process(delta):
-	star_two.rotation += 0.5 * delta
 
 func _on_mouse_entered():
 	var tween = create_tween()

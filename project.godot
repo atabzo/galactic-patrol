@@ -16,6 +16,10 @@ config/features=PackedStringArray("4.5", "Forward Plus")
 boot_splash/image="uid://cg1mwh4jopdtg"
 config/icon="res://icon.svg"
 
+[autoload]
+
+playerdata="*res://scenes/elemental-scripts/playerdata.gd"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")

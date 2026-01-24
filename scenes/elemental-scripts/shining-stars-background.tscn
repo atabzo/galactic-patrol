@@ -1,0 +1,195 @@
+[gd_scene load_steps=8 format=3 uid="uid://dao84a7txtkqa"]
+
+[ext_resource type="Texture2D" uid="uid://cr826q1a7t6ak" path="res://images/stars/more stars (3).png" id="1_kv4lr"]
+[ext_resource type="Texture2D" uid="uid://c7jd3kgo8fm4t" path="res://images/stars/more stars (1).png" id="2_avbil"]
+[ext_resource type="Script" uid="uid://df5dw456rloia" path="res://scenes/elemental-scripts/major.gd" id="2_yypmc"]
+[ext_resource type="Texture2D" uid="uid://nuk1hkph3q6i" path="res://images/stars/more stars (2).png" id="3_yypmc"]
+[ext_resource type="Texture2D" uid="uid://wwbd3x3era5r" path="res://images/stars/more stars (5).png" id="4_ss8t1"]
+[ext_resource type="Texture2D" uid="uid://6lkfjdhkspyb" path="res://images/stars/more stars (4).png" id="5_c2mlt"]
+[ext_resource type="Texture2D" uid="uid://l1j4tfi2ihpy" path="res://images/stars/newstar.png" id="6_v82n3"]
+
+[node name="shining-stars-background" type="Node2D"]
+
+[node name="major" type="Sprite2D" parent="."]
+script = ExtResource("2_yypmc")
+
+[node name="MoreStars(3)2" type="Sprite2D" parent="major"]
+position = Vector2(833.75, 69.75)
+scale = Vector2(0.36200008, 0.30664063)
+texture = ExtResource("1_kv4lr")
+
+[node name="MoreStars(1)" type="Sprite2D" parent="major"]
+position = Vector2(155, 539)
+texture = ExtResource("2_avbil")
+
+[node name="MoreStars(2)" type="Sprite2D" parent="major"]
+position = Vector2(209, 183.99997)
+rotation = -0.44505897
+scale = Vector2(0.16827953, 0.15949771)
+texture = ExtResource("3_yypmc")
+
+[node name="MoreStars(3)" type="Sprite2D" parent="major"]
+position = Vector2(860.0001, 203)
+scale = Vector2(0.31199983, 0.32812497)
+texture = ExtResource("1_kv4lr")
+
+[node name="MoreStars(5)" type="Sprite2D" parent="major"]
+position = Vector2(92, 71)
+scale = Vector2(0.41428575, 0.41121498)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(5)2" type="Sprite2D" parent="major"]
+position = Vector2(399, 157)
+scale = Vector2(0.41428575, 0.41121498)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(5)2" type="Sprite2D" parent="major/MoreStars(5)2"]
+position = Vector2(654.1378, -179.95453)
+rotation = -0.44505897
+scale = Vector2(0.8853036, 0.9442439)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(1)2" type="Sprite2D" parent="major"]
+position = Vector2(375.00003, 581.00006)
+scale = Vector2(0.33510637, 0.4174107)
+texture = ExtResource("2_avbil")
+
+[node name="MoreStars(1)3" type="Sprite2D" parent="major"]
+position = Vector2(501.03122, 467.0625)
+scale = Vector2(0.2976063, 0.31194177)
+texture = ExtResource("2_avbil")
+
+[node name="MoreStars(1)3" type="Sprite2D" parent="major/MoreStars(1)3"]
+position = Vector2(50.297287, -1295.3137)
+rotation = -1.8727382
+scale = Vector2(1.0456885, 1.1602129)
+texture = ExtResource("2_avbil")
+
+[node name="MoreStars(1)4" type="Sprite2D" parent="major"]
+position = Vector2(746, 564)
+scale = Vector2(0.5, 0.62946427)
+texture = ExtResource("2_avbil")
+
+[node name="MoreStars(1)4" type="Sprite2D" parent="major/MoreStars(1)4"]
+position = Vector2(652.00006, -535.37585)
+rotation = -0.44505897
+scale = Vector2(0.7253078, 0.72057635)
+texture = ExtResource("2_avbil")
+
+[node name="MoreStars(1)5" type="Sprite2D" parent="major"]
+position = Vector2(572, 581.99994)
+rotation = -1.0698868
+scale = Vector2(0.35182068, 0.3826382)
+texture = ExtResource("2_avbil")
+
+[node name="MoreStars(5)3" type="Sprite2D" parent="major"]
+position = Vector2(771, 346)
+scale = Vector2(0.41428575, 0.41121498)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(5)4" type="Sprite2D" parent="major"]
+position = Vector2(263, 345.00003)
+rotation = -0.54105204
+scale = Vector2(0.41428575, 0.41121498)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(5)5" type="Sprite2D" parent="major"]
+position = Vector2(371, 396)
+scale = Vector2(0.2523469, 0.24761999)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(5)6" type="Sprite2D" parent="major"]
+position = Vector2(490, 575)
+rotation = 0.4537856
+scale = Vector2(0.17163268, 0.16909775)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(5)7" type="Sprite2D" parent="major"]
+position = Vector2(299.00003, 458)
+scale = Vector2(0.17163268, 0.16909775)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(5)8" type="Sprite2D" parent="major"]
+position = Vector2(169.00006, 366.00003)
+rotation = -0.44505897
+scale = Vector2(0.17163268, 0.16909775)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(4)2" type="Sprite2D" parent="major"]
+position = Vector2(951, 355.00003)
+rotation = -0.20245819
+scale = Vector2(1.2248203, 1.2086861)
+texture = ExtResource("5_c2mlt")
+
+[node name="MoreStars(3)3" type="Sprite2D" parent="major"]
+position = Vector2(373.90158, 471.21124)
+scale = Vector2(0.21678734, 0.19366197)
+texture = ExtResource("1_kv4lr")
+
+[node name="MoreStars(3)4" type="Sprite2D" parent="major"]
+position = Vector2(337.051, 267.46973)
+scale = Vector2(0.26359195, 0.2614822)
+texture = ExtResource("1_kv4lr")
+
+[node name="MoreStars(3)4" type="Sprite2D" parent="major/MoreStars(3)4"]
+position = Vector2(1449.0162, -265.67667)
+scale = Vector2(0.9468434, 0.9362447)
+texture = ExtResource("1_kv4lr")
+
+[node name="MoreStars(5)9" type="Sprite2D" parent="major"]
+position = Vector2(210, 52.00003)
+scale = Vector2(0.17163268, 0.16909775)
+texture = ExtResource("4_ss8t1")
+
+[node name="MoreStars(5)10" type="Sprite2D" parent="major"]
+position = Vector2(359, 45)
+scale = Vector2(0.17163268, 0.16909775)
+texture = ExtResource("4_ss8t1")
+
+[node name="Newstar" type="Sprite2D" parent="major"]
+position = Vector2(528.00006, 299)
+scale = Vector2(0.994, 0.95)
+texture = ExtResource("6_v82n3")
+
+[node name="MoreStars(4)" type="Sprite2D" parent="major"]
+position = Vector2(84, 405.00003)
+rotation = -0.17802358
+scale = Vector2(0.28050068, 0.28261906)
+texture = ExtResource("5_c2mlt")
+
+[node name="Newstar2" type="Sprite2D" parent="major"]
+position = Vector2(76, 284)
+scale = Vector2(0.33200008, 0.332)
+texture = ExtResource("6_v82n3")
+
+[node name="Newstar3" type="Sprite2D" parent="major"]
+position = Vector2(658, 466.99997)
+scale = Vector2(0.33200008, 0.332)
+texture = ExtResource("6_v82n3")
+
+[node name="Newstar3" type="Sprite2D" parent="major/Newstar3"]
+position = Vector2(-668.6745, -1129.5181)
+scale = Vector2(0.33200008, 0.332)
+texture = ExtResource("6_v82n3")
+
+[node name="Newstar4" type="Sprite2D" parent="major/Newstar3"]
+position = Vector2(-1042.1685, -1027.1084)
+scale = Vector2(0.33200008, 0.332)
+texture = ExtResource("6_v82n3")
+
+[node name="Newstar3" type="Sprite2D" parent="major/Newstar3/Newstar4"]
+position = Vector2(-668.6745, -1129.5181)
+scale = Vector2(0.33200008, 0.332)
+texture = ExtResource("6_v82n3")
+
+[node name="Newstar4" type="Sprite2D" parent="major"]
+position = Vector2(997.0001, 113.99994)
+rotation = -1.9600048
+scale = Vector2(0.39832592, 0.42699605)
+texture = ExtResource("6_v82n3")
+
+[node name="Newstar4" type="Sprite2D" parent="major/Newstar4"]
+position = Vector2(-1057.0729, -280.39664)
+rotation = -2.4050636
+scale = Vector2(0.98399144, 0.9716806)
+texture = ExtResource("6_v82n3")

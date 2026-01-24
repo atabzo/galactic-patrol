@@ -10,10 +10,10 @@
 [node name="end-proud-scene" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_left = 4.0
-offset_top = -71.0
-offset_right = 1193.0
-offset_bottom = 599.0
+offset_left = -12.0
+offset_top = -2.0
+offset_right = 1177.0
+offset_bottom = 668.0
 color = Color(0.39607844, 1, 0.12941177, 1)
 
 [node name="text" type="Label" parent="ColorRect"]
@@ -31,7 +31,7 @@ The residents of earth are dancing in joy :)"
 autowrap_mode = 2
 
 [node name="Thorfinn" type="Sprite2D" parent="ColorRect"]
-position = Vector2(300, 289.00003)
+position = Vector2(300, 303)
 scale = Vector2(1.1043516, 1.0075078)
 texture = ExtResource("2_agp5w")
 offset = Vector2(-50.298294, 72.750305)
@@ -43,7 +43,7 @@ texture = ExtResource("3_i70nl")
 script = ExtResource("4_qar6k")
 
 [node name="gratitude-icon" type="Sprite2D" parent="ColorRect"]
-position = Vector2(1073, 557)
+position = Vector2(1071, 576)
 scale = Vector2(0.28802294, 0.30379748)
 texture = ExtResource("4_i70nl")
 

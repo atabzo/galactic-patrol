@@ -12,12 +12,12 @@ radius = 188.00266
 [node name="wip-scene" type="Node2D"]
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(581, 324)
+position = Vector2(567, 322)
 scale = Vector2(0.9151376, 0.9211956)
 texture = ExtResource("1_rrifj")
 
 [node name="CuteAnimalTransparent" type="Sprite2D" parent="."]
-position = Vector2(894, 335)
+position = Vector2(901, 318)
 scale = Vector2(0.6643968, 0.6726804)
 texture = ExtResource("2_e15f8")
 
@@ -29,14 +29,14 @@ position = Vector2(602, 504)
 shape = SubResource("CircleShape2D_br6qk")
 
 [node name="DecorativeStars" type="Sprite2D" parent="Area2D"]
-position = Vector2(982.00006, 507.00003)
+position = Vector2(982.99994, 500.99997)
 rotation = -0.28972465
-scale = Vector2(0.5, 0.537037)
+scale = Vector2(0.6632089, 0.6742017)
 texture = ExtResource("4_0a0c3")
 
 [node name="DecorativeStars2" type="Sprite2D" parent="Area2D/DecorativeStars"]
-position = Vector2(-220.41443, -61.176758)
-rotation = 0.27073857
+position = Vector2(-196.82231, -67.005005)
+rotation = -0.08726646
 scale = Vector2(0.59960264, 0.60248834)
 skew = 0.039141536
 texture = ExtResource("4_0a0c3")
