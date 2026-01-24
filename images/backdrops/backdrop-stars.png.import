@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bloyj75njmeb3"
-path="res://.godot/imported/confused.png-6c7d9d19a8d8ff19991a2c8d2f691d4d.ctex"
+uid="uid://grds2am3l7t8"
+path="res://.godot/imported/backdrop-stars.png-a65861a95234f902c0e670ace086c76c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/more icons/confused.png"
-dest_files=["res://.godot/imported/confused.png-6c7d9d19a8d8ff19991a2c8d2f691d4d.ctex"]
+source_file="res://images/backdrops/backdrop-stars.png"
+dest_files=["res://.godot/imported/backdrop-stars.png-a65861a95234f902c0e670ace086c76c.ctex"]
 
 [params]
 
