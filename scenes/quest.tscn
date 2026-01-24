@@ -26,7 +26,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(2),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Object(Node2D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","visible":true,"modulate":Color(1, 1, 1, 1),"self_modulate":Color(1, 1, 1, 1),"show_behind_parent":false,"top_level":false,"clip_children":0,"light_mask":1,"visibility_layer":1,"z_index":0,"z_as_relative":true,"y_sort_enabled":false,"texture_filter":0,"texture_repeat":0,"material":null,"use_parent_material":false,"position":Vector2(746, 451.00006),"rotation":0.0,"scale":Vector2(1.229297, 1.2502742),"skew":0.0,"script":Resource("res://scenes/spaceship.gd"))
+"values": [Object(Node2D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","visible":true,"modulate":Color(1, 1, 1, 1),"self_modulate":Color(1, 1, 1, 1),"show_behind_parent":false,"top_level":false,"clip_children":0,"light_mask":1,"visibility_layer":1,"z_index":0,"z_as_relative":true,"y_sort_enabled":false,"texture_filter":0,"texture_repeat":0,"material":null,"use_parent_material":false,"position":Vector2(1200, 545),"rotation":0.0,"scale":Vector2(1.229297, 1.2502742),"skew":0.0,"script":Resource("res://scenes/spaceship.gd"))
 ]
 }
 
@@ -42,7 +42,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Object(Node2D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","visible":true,"modulate":Color(1, 1, 1, 1),"self_modulate":Color(1, 1, 1, 1),"show_behind_parent":false,"top_level":false,"clip_children":0,"light_mask":1,"visibility_layer":1,"z_index":0,"z_as_relative":true,"y_sort_enabled":false,"texture_filter":0,"texture_repeat":0,"material":null,"use_parent_material":false,"position":Vector2(746, 451.00006),"rotation":0.0,"scale":Vector2(1.229297, 1.2502742),"skew":0.0,"script":Resource("res://scenes/spaceship.gd"))
+"values": [Object(Node2D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","visible":true,"modulate":Color(1, 1, 1, 1),"self_modulate":Color(1, 1, 1, 1),"show_behind_parent":false,"top_level":false,"clip_children":0,"light_mask":1,"visibility_layer":1,"z_index":0,"z_as_relative":true,"y_sort_enabled":false,"texture_filter":0,"texture_repeat":0,"material":null,"use_parent_material":false,"position":Vector2(1200, 545),"rotation":0.0,"scale":Vector2(1.229297, 1.2502742),"skew":0.0,"script":Resource("res://scenes/spaceship.gd"))
 ]
 }
 
@@ -55,7 +55,7 @@ _data = {
 [node name="cosmos-quest" type="Node2D"]
 
 [node name="cosmos-background" parent="." instance=ExtResource("1_k76xp")]
-position = Vector2(-543, -487)
+position = Vector2(-543, -353)
 
 [node name="fire" type="Sprite2D" parent="."]
 position = Vector2(933.9999, 276.99988)
@@ -66,7 +66,7 @@ texture = ExtResource("2_aqimm")
 script = ExtResource("3_ttfkt")
 
 [node name="planets" parent="." instance=ExtResource("3_rwe2g")]
-position = Vector2(282, 225)
+position = Vector2(272, 248)
 
 [node name="Button" type="Button" parent="."]
 offset_left = 416.0
@@ -79,12 +79,12 @@ text = "exit"
 script = ExtResource("7_kj15b")
 
 [node name="LovelyFlowers(11)" type="Sprite2D" parent="."]
-position = Vector2(718, 816)
+position = Vector2(573.99994, 816)
 scale = Vector2(1.1571862, 1.0597501)
 texture = ExtResource("9_ao4jg")
 
 [node name="LovelyFlowers(12)" type="Sprite2D" parent="."]
-position = Vector2(1139, -423.00006)
+position = Vector2(1524, -246)
 scale = Vector2(1.0305558, 0.8331249)
 texture = ExtResource("10_qqhq5")
 
@@ -112,7 +112,7 @@ libraries = {
 }
 
 [node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
-position = Vector2(746, 451.00006)
+position = Vector2(1200, 545)
 
 [node name="Camera2D" type="Camera2D" parent="Spaceship"]
 position = Vector2(-196.86049, -1.9073486e-06)

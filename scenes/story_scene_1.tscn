@@ -10,8 +10,8 @@
 [node name="Sprite2D" type="Sprite2D" parent="."]
 
 [node name="background" type="Sprite2D" parent="Sprite2D"]
-position = Vector2(951, 567)
-scale = Vector2(1.4571866, 1.5597826)
+position = Vector2(966, 547.5)
+scale = Vector2(1.495413, 1.5421194)
 texture = ExtResource("1_vn5k7")
 
 [node name="StarsYay" type="Sprite2D" parent="Sprite2D"]
@@ -19,7 +19,7 @@ position = Vector2(1235, 635)
 texture = ExtResource("4_5vm2e")
 
 [node name="spaceship-img" type="Sprite2D" parent="Sprite2D"]
-position = Vector2(371, 338)
+position = Vector2(379.00003, 253)
 scale = Vector2(0.6434426, 0.6042735)
 texture = ExtResource("3_xt70l")
 

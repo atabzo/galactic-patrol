@@ -28,7 +28,7 @@ scale = Vector2(1, 0.99999964)
 shape = SubResource("RectangleShape2D_dtwsp")
 
 [node name="Paper" type="Sprite2D" parent="reactive-paper"]
-position = Vector2(0, 3.0517578e-05)
+position = Vector2(-6.5600004, 1.6203196)
 scale = Vector2(1, 0.99999994)
 texture = ExtResource("2_dtwsp")
 flip_h = true
@@ -57,10 +57,10 @@ texture = ExtResource("4_5m8ma")
 
 [node name="Label" type="Label" parent="reactive-paper/Paper"]
 modulate = Color(1, 0, 0, 1)
-offset_left = -423.52798
-offset_top = -151.64915
-offset_right = 397.47202
-offset_bottom = 91.350845
+offset_left = -397.8318
+offset_top = -137.94249
+offset_right = 423.1682
+offset_bottom = 105.05751
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 90
 text = "gladiators of space"

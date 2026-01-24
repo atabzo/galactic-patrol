@@ -32,12 +32,12 @@ scale = Vector2(1.3678011, 0.6796296)
 texture = ExtResource("2_01j2m")
 
 [node name="LovelyFlowers(2)" type="Sprite2D" parent="."]
-position = Vector2(1112, 832)
-scale = Vector2(0.62092394, 0.6480978)
+position = Vector2(2112, 234)
+scale = Vector2(0.20040739, 0.22758149)
 texture = ExtResource("1_jkhwn")
 
 [node name="LovelyFlowers(5)" type="Sprite2D" parent="."]
-position = Vector2(716.5, 695.75006)
+position = Vector2(2448, 621)
 scale = Vector2(0.41983694, 0.41779894)
 texture = ExtResource("2_tij55")
 
@@ -53,13 +53,13 @@ texture = ExtResource("4_0f06d")
 
 [node name="Label" type="Label" parent="."]
 modulate = Color(0.17438853, 0.2298995, 1.92523e-07, 1)
-offset_left = 536.0
-offset_top = 114.0
-offset_right = 1294.0
-offset_bottom = 357.0
+offset_left = 455.0
+offset_top = 105.0
+offset_right = 1329.0
+offset_bottom = 471.0
 theme_override_fonts/font = ExtResource("7_f164h")
 theme_override_font_sizes/font_size = 100
-text = "hmm? type type type"
+text = "hmm? i wonder what should i name it"
 autowrap_mode = 2
 
 [node name="MoreIcons(1)" type="Sprite2D" parent="."]
@@ -72,6 +72,24 @@ scale = Vector2(0.35568824, 0.356148)
 texture = ExtResource("9_t82ha")
 
 [node name="MoreIcons(6)" type="Sprite2D" parent="."]
-position = Vector2(1657.0001, 644)
+position = Vector2(1647.0001, 634)
 scale = Vector2(1.2069306, 1.0578563)
 texture = ExtResource("10_qt0h2")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 540.0
+offset_top = 712.0
+offset_right = 1167.0
+offset_bottom = 846.0
+theme_override_fonts/font = ExtResource("7_f164h")
+theme_override_font_sizes/font_size = 72
+text = "play play play?"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 468.0
+offset_top = 886.0
+offset_right = 1268.0
+offset_bottom = 1014.0
+theme_override_fonts/font = ExtResource("7_f164h")
+theme_override_font_sizes/font_size = 70
+text = "exit (please don't?)"

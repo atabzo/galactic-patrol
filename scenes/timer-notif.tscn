@@ -6,7 +6,7 @@
 [node name="timer-notification" type="Node2D"]
 
 [node name="notification-panels" parent="." instance=ExtResource("1_bfyj3")]
-position = Vector2(749, 245)
+position = Vector2(4, 2)
 
 [node name="Label" type="Label" parent="notification-panels"]
 offset_left = 1123.0

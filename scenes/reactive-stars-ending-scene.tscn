@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://b4k5opo70c3ey"]
+[gd_scene load_steps=8 format=3 uid="uid://b4k5opo70c3ey"]
 
 [ext_resource type="Texture2D" uid="uid://cir5ijduenjpk" path="res://images/backdrops/banner.jpg" id="1_rrifj"]
 [ext_resource type="Texture2D" uid="uid://dv2wi0cnbull5" path="res://images/end-screen icons/cute-animal-transparent.png" id="2_e15f8"]
 [ext_resource type="Script" uid="uid://g5n320mrinmv" path="res://scenes/reactive-stars.gd" id="3_l1exe"]
 [ext_resource type="Texture2D" uid="uid://dh0w2gmc6scsd" path="res://images/welcome-screen/decorative-stars.png" id="4_0a0c3"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="5_e15f8"]
+[ext_resource type="Texture2D" uid="uid://dpf1iaj4407ni" path="res://images/more icons/more icons (2).png" id="6_l1exe"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_br6qk"]
 radius = 188.00266
@@ -60,3 +61,8 @@ offset_bottom = 529.0
 theme_override_fonts/font = ExtResource("5_e15f8")
 theme_override_font_sizes/font_size = 50
 text = "byee!"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(977, 609)
+scale = Vector2(0.4482289, 0.53107345)
+texture = ExtResource("6_l1exe")
