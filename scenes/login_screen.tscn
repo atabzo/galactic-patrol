@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://u8ajlalniwrq" path="res://scenes/play-button.gd" id="6_dtwsp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dtwsp"]
-size = Vector2(742.28357, 527.68494)
+size = Vector2(737.21185, 509.14713)
 
 [node name="login-screen" type="Node2D"]
 
@@ -30,7 +30,7 @@ flip_h = true
 flip_v = true
 
 [node name="DecorativeStars" type="Sprite2D" parent="reactive-paper/Paper"]
-position = Vector2(340.8968, -216.177)
+position = Vector2(369.11404, -219.52563)
 rotation = 1.4992378
 scale = Vector2(0.87837785, 0.9273491)
 skew = -0.04720235
@@ -73,6 +73,6 @@ text = "PLAYYY?"
 script = ExtResource("6_dtwsp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="reactive-paper"]
-position = Vector2(14.590527, 13.66293)
+position = Vector2(-4.5456676, -6.043151)
 scale = Vector2(1, 0.99999964)
 shape = SubResource("RectangleShape2D_dtwsp")

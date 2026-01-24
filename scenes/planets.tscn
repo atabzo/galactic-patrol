@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://3ftjinsp46ma"]
+[gd_scene load_steps=8 format=3 uid="uid://3ftjinsp46ma"]
 
 [ext_resource type="Texture2D" uid="uid://bffkt83ukd43y" path="res://images/planets/neptune.png" id="1_ex1bp"]
 [ext_resource type="Texture2D" uid="uid://cxuaavicd10jf" path="res://images/planets/moon.png" id="2_bkhmr"]
@@ -7,45 +7,40 @@
 [ext_resource type="Texture2D" uid="uid://chhltb5ahu4n5" path="res://images/planets/mars.png" id="6_ex1bp"]
 [ext_resource type="Texture2D" uid="uid://ha0rxqjolob8" path="res://images/planets/sun.png" id="7_bkhmr"]
 [ext_resource type="Texture2D" uid="uid://bu02wkssot1nr" path="res://images/planets/shiny moon.png" id="7_ex1bp"]
-[ext_resource type="Texture2D" uid="uid://25rknlij1aal" path="res://images/earth-drawing.png" id="8_bkhmr"]
 
 [node name="planets" type="Node2D"]
 
 [node name="neptune" type="Sprite2D" parent="."]
-position = Vector2(1051.0001, 296)
+position = Vector2(1035, 537)
 scale = Vector2(0.16176467, 0.1550926)
 texture = ExtResource("1_ex1bp")
 
 [node name="moon" type="Sprite2D" parent="."]
-position = Vector2(77, 272)
+position = Vector2(72, 431)
 scale = Vector2(0.1450455, 0.14247356)
 texture = ExtResource("2_bkhmr")
 
 [node name="blue-planet" type="Sprite2D" parent="."]
-position = Vector2(147.00002, 476)
+position = Vector2(101.00001, 260)
 scale = Vector2(0.5620776, 0.578199)
 texture = ExtResource("4_0hu8o")
 
 [node name="saturn" type="Sprite2D" parent="."]
-position = Vector2(1083, 84)
+position = Vector2(1044, 340)
 scale = Vector2(0.28469485, 0.28296852)
 texture = ExtResource("5_ex1bp")
 
 [node name="mars" type="Sprite2D" parent="."]
-position = Vector2(102, 87.5)
+position = Vector2(207, 116.00001)
 scale = Vector2(0.312, 0.314)
 texture = ExtResource("6_ex1bp")
 
 [node name="sun" type="Sprite2D" parent="."]
-position = Vector2(833, 99)
+position = Vector2(971, 128)
 scale = Vector2(0.42391303, 0.45383674)
 texture = ExtResource("7_bkhmr")
 
 [node name="shiny-planet" type="Sprite2D" parent="."]
-position = Vector2(906, 470.00003)
+position = Vector2(203, 538)
 scale = Vector2(0.2801205, 0.26807237)
 texture = ExtResource("7_ex1bp")
-
-[node name="EarthDrawing" type="Sprite2D" parent="."]
-position = Vector2(418, 269)
-texture = ExtResource("8_bkhmr")

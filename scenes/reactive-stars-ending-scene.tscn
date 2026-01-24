@@ -17,7 +17,7 @@ scale = Vector2(0.9151376, 0.9211956)
 texture = ExtResource("1_rrifj")
 
 [node name="CuteAnimalTransparent" type="Sprite2D" parent="."]
-position = Vector2(903.99994, 342)
+position = Vector2(894, 335)
 scale = Vector2(0.6643968, 0.6726804)
 texture = ExtResource("2_e15f8")
 
@@ -43,9 +43,9 @@ texture = ExtResource("4_0a0c3")
 
 [node name="Label" type="Label" parent="."]
 offset_left = 181.0
-offset_top = 231.0
+offset_top = 213.0
 offset_right = 755.0
-offset_bottom = 493.0
+offset_bottom = 475.0
 theme_override_colors/font_color = Color(0.15425843, 0.0002937179, 0.36303174, 1)
 theme_override_fonts/font = ExtResource("5_e15f8")
 theme_override_font_sizes/font_size = 41
@@ -53,10 +53,10 @@ text = "so that's all for the first ship, stay tuned... I'll improve and polish 
 autowrap_mode = 2
 
 [node name="Button" type="Button" parent="."]
-offset_left = 505.0
-offset_top = 463.0
-offset_right = 695.0
-offset_bottom = 501.0
+offset_left = 518.0
+offset_top = 461.0
+offset_right = 708.0
+offset_bottom = 529.0
 theme_override_fonts/font = ExtResource("5_e15f8")
 theme_override_font_sizes/font_size = 50
 text = "byee!"
