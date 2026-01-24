@@ -57,10 +57,10 @@ texture = ExtResource("4_5m8ma")
 
 [node name="Label" type="Label" parent="reactive-paper/Paper"]
 modulate = Color(1, 0, 0, 1)
-offset_left = -406.40604
-offset_top = -105.668274
-offset_right = 414.59396
-offset_bottom = 137.33173
+offset_left = -423.52798
+offset_top = -151.64915
+offset_right = 397.47202
+offset_bottom = 91.350845
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 90
 text = "gladiators of space"
@@ -68,11 +68,11 @@ horizontal_alignment = 1
 autowrap_mode = 2
 
 [node name="Button" type="Button" parent="reactive-paper/Paper"]
-offset_left = -160.6568
-offset_top = 118.76193
-offset_right = 139.3432
-offset_bottom = 213.76193
+offset_left = -148.57083
+offset_top = 124.23584
+offset_right = 151.42917
+offset_bottom = 219.23584
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 34
-text = "PLAYYY?"
+text = "play play play?"
 script = ExtResource("6_dtwsp")

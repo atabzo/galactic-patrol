@@ -1,0 +1,77 @@
+[gd_scene load_steps=11 format=3 uid="uid://cchadmwbfkspu"]
+
+[ext_resource type="Texture2D" uid="uid://c5egd0ijyalvy" path="res://images/end-screen icons/effects/effects (5).png" id="1_0f06d"]
+[ext_resource type="Texture2D" uid="uid://duhx0i05wpqgp" path="res://images/lovely-flowers/lovely flowers (2).png" id="1_jkhwn"]
+[ext_resource type="Texture2D" uid="uid://dpega4ifxil4i" path="res://images/welcome-screen/paper.png" id="2_01j2m"]
+[ext_resource type="Texture2D" uid="uid://deb1xsvj5h0n1" path="res://images/lovely-flowers/lovely flowers (5).png" id="2_tij55"]
+[ext_resource type="Texture2D" uid="uid://ds1ne4uplchtx" path="res://images/lovely-flowers/lovely flowers (6).png" id="3_8wqor"]
+[ext_resource type="Texture2D" uid="uid://dsapnlfct4mj6" path="res://images/lovely-flowers/lovely flowers (7).png" id="4_0f06d"]
+[ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="7_f164h"]
+[ext_resource type="Texture2D" uid="uid://bg4b0tlycsifi" path="res://images/more icons/more icons (1).png" id="8_01j2m"]
+[ext_resource type="Texture2D" uid="uid://dadcmx5kk28y0" path="res://images/more icons/more icons (3).png" id="9_t82ha"]
+[ext_resource type="Texture2D" uid="uid://2anjngsq1lo" path="res://images/more icons/more icons (6).png" id="10_qt0h2"]
+
+[node name="intro-scene" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -10.0
+offset_top = -11.0
+offset_right = 1937.0
+offset_bottom = 1098.0
+color = Color(0.8522118, 1, 0.71416074, 1)
+
+[node name="Effects(5)" type="Sprite2D" parent="."]
+position = Vector2(1633.125, 543.62494)
+scale = Vector2(1.6095046, 1.3894905)
+texture = ExtResource("1_0f06d")
+
+[node name="Paper" type="Sprite2D" parent="."]
+modulate = Color(0.5444634, 0.9823, 0, 1)
+position = Vector2(815, 277)
+scale = Vector2(1.3678011, 0.6796296)
+texture = ExtResource("2_01j2m")
+
+[node name="LovelyFlowers(2)" type="Sprite2D" parent="."]
+position = Vector2(883, 793.00006)
+scale = Vector2(0.62092394, 0.6480978)
+texture = ExtResource("1_jkhwn")
+
+[node name="LovelyFlowers(5)" type="Sprite2D" parent="."]
+position = Vector2(495.00006, 690)
+scale = Vector2(0.4728261, 0.41168478)
+texture = ExtResource("2_tij55")
+
+[node name="LovelyFlowers(6)" type="Sprite2D" parent="."]
+position = Vector2(282.99988, 167)
+scale = Vector2(0.3857143, 0.4189189)
+texture = ExtResource("3_8wqor")
+
+[node name="LovelyFlowers(7)" type="Sprite2D" parent="."]
+position = Vector2(1323, 434.00003)
+scale = Vector2(0.79776245, 0.75289255)
+texture = ExtResource("4_0f06d")
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(0.17438853, 0.2298995, 1.92523e-07, 1)
+offset_left = 534.0
+offset_top = 215.0
+offset_right = 1215.0
+offset_bottom = 319.0
+theme_override_fonts/font = ExtResource("7_f164h")
+theme_override_font_sizes/font_size = 85
+text = "WAIT HOLDON..."
+autowrap_mode = 2
+
+[node name="MoreIcons(1)" type="Sprite2D" parent="."]
+position = Vector2(255, 782)
+texture = ExtResource("8_01j2m")
+
+[node name="MoreIcons(3)" type="Sprite2D" parent="."]
+position = Vector2(196.00002, 526.00006)
+scale = Vector2(0.35568824, 0.356148)
+texture = ExtResource("9_t82ha")
+
+[node name="MoreIcons(6)" type="Sprite2D" parent="."]
+position = Vector2(1792, 605)
+scale = Vector2(1.2069306, 1.0578563)
+texture = ExtResource("10_qt0h2")

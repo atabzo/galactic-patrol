@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://cx4nvljesj1fl"]
+[gd_scene load_steps=11 format=3 uid="uid://cx4nvljesj1fl"]
 
 [ext_resource type="Texture2D" uid="uid://ngqqjbinr41p" path="res://images/backdrops/background.jpg" id="1_7fbp7"]
 [ext_resource type="Texture2D" uid="uid://nx5gtlfhwk6w" path="res://images/icons/fire.png" id="2_aqimm"]
@@ -8,6 +8,8 @@
 [ext_resource type="Script" uid="uid://c4ev6pxc4621y" path="res://scenes/camera_2d.gd" id="6_kj15b"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="6_ol5eh"]
 [ext_resource type="Script" uid="uid://bsvahj5uil5l3" path="res://scenes/exit-button.gd" id="7_kj15b"]
+[ext_resource type="Texture2D" uid="uid://f2qn7jo81jrx" path="res://images/lovely-flowers/lovely flowers (11).png" id="9_ao4jg"]
+[ext_resource type="Texture2D" uid="uid://2gustnhflyce" path="res://images/lovely-flowers/lovely flowers (12).png" id="10_qqhq5"]
 
 [node name="cosmos-quest" type="Node2D"]
 
@@ -132,7 +134,7 @@ scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
 [node name="Background2" type="Sprite2D" parent="Background/Background/Background"]
-position = Vector2(-637.47046, 525.533)
+position = Vector2(-361.70947, 507.4672)
 scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
@@ -357,12 +359,12 @@ scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
 [node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2"]
-position = Vector2(1.0392805, -1716.5635)
+position = Vector2(-2.078596, -1721.4973)
 scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
 [node name="Background" type="Sprite2D" parent="Background/Background/Background/Background2/Background2/Background/Background2/Background"]
-position = Vector2(596.97455, 36.160973)
+position = Vector2(627.5222, 31.408298)
 scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
@@ -1622,7 +1624,7 @@ scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
 [node name="Background2" type="Sprite2D" parent="Background/Background/Background2"]
-position = Vector2(634.83026, -18.851196)
+position = Vector2(599.50336, 587.1361)
 scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
@@ -1632,7 +1634,7 @@ scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
 [node name="Background" type="Sprite2D" parent="Background/Background/Background2/Background2/Background"]
-position = Vector2(1.0622433, -374.72498)
+position = Vector2(26.16066, 1396.6885)
 scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
@@ -2062,7 +2064,7 @@ scale = Vector2(1.0036469, 1.1370494)
 texture = ExtResource("1_7fbp7")
 
 [node name="fire" type="Sprite2D" parent="."]
-position = Vector2(558, 223.00002)
+position = Vector2(567, 201)
 rotation = 0.5661373
 scale = Vector2(0.20988414, 0.23116943)
 skew = -0.015207529
@@ -2070,10 +2072,10 @@ texture = ExtResource("2_aqimm")
 script = ExtResource("3_ttfkt")
 
 [node name="planets" parent="." instance=ExtResource("3_rwe2g")]
-position = Vector2(1, -77)
+position = Vector2(52, -124)
 
 [node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
-position = Vector2(588, 453.00003)
+position = Vector2(962, 544.99994)
 
 [node name="Camera2D" type="Camera2D" parent="Spaceship"]
 script = ExtResource("6_kj15b")
@@ -2087,3 +2089,12 @@ theme_override_fonts/font = ExtResource("6_ol5eh")
 theme_override_font_sizes/font_size = 53
 text = "exit"
 script = ExtResource("7_kj15b")
+
+[node name="LovelyFlowers(11)" type="Sprite2D" parent="."]
+position = Vector2(595, 650.00006)
+scale = Vector2(1.6073468, 1.5310001)
+texture = ExtResource("9_ao4jg")
+
+[node name="LovelyFlowers(12)" type="Sprite2D" parent="."]
+position = Vector2(954, -1305)
+texture = ExtResource("10_qqhq5")

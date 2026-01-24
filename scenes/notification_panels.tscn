@@ -19,10 +19,10 @@ border_width_bottom = 5
 [node name="notification-panels" type="Node2D"]
 
 [node name="message-window" type="Panel" parent="."]
-offset_left = 495.0
-offset_top = 39.0
-offset_right = 971.0
-offset_bottom = 559.0
+offset_left = 1099.0
+offset_top = 339.0
+offset_right = 1575.0
+offset_bottom = 859.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_8slss")
 script = ExtResource("1_aop0r")
 

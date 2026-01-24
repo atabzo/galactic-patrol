@@ -7,25 +7,28 @@
 
 [node name="story-scene-1" type="Node2D"]
 
-[node name="background" type="Sprite2D" parent="."]
-position = Vector2(558, 316)
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="background" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(951, 567)
+scale = Vector2(1.4571866, 1.5597826)
 texture = ExtResource("1_vn5k7")
 
-[node name="Label" type="Label" parent="."]
-offset_left = 539.0
-offset_top = 203.0
-offset_right = 906.0
-offset_bottom = 468.0
-theme_override_fonts/font = ExtResource("3_fin8p")
-theme_override_font_sizes/font_size = 101
-text = "this is you!"
-autowrap_mode = 2
+[node name="StarsYay" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(1235, 635)
+texture = ExtResource("4_5vm2e")
 
-[node name="spaceship-img" type="Sprite2D" parent="."]
+[node name="spaceship-img" type="Sprite2D" parent="Sprite2D"]
 position = Vector2(371, 338)
 scale = Vector2(0.6434426, 0.6042735)
 texture = ExtResource("3_xt70l")
 
-[node name="StarsYay" type="Sprite2D" parent="."]
-position = Vector2(936, 512)
-texture = ExtResource("4_5vm2e")
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = 752.0
+offset_top = 400.0
+offset_right = 1277.0
+offset_bottom = 778.0
+theme_override_fonts/font = ExtResource("3_fin8p")
+theme_override_font_sizes/font_size = 101
+text = "this is you!"
+autowrap_mode = 2

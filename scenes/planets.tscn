@@ -16,12 +16,12 @@ scale = Vector2(0.16176467, 0.1550926)
 texture = ExtResource("1_ex1bp")
 
 [node name="moon" type="Sprite2D" parent="."]
-position = Vector2(72, 431)
+position = Vector2(547, 481)
 scale = Vector2(0.1450455, 0.14247356)
 texture = ExtResource("2_bkhmr")
 
 [node name="blue-planet" type="Sprite2D" parent="."]
-position = Vector2(101.00001, 260)
+position = Vector2(627.99994, 363)
 scale = Vector2(0.5620776, 0.578199)
 texture = ExtResource("4_0hu8o")
 
@@ -31,8 +31,8 @@ scale = Vector2(0.28469485, 0.28296852)
 texture = ExtResource("5_ex1bp")
 
 [node name="mars" type="Sprite2D" parent="."]
-position = Vector2(207, 116.00001)
-scale = Vector2(0.312, 0.314)
+position = Vector2(17.000002, 18.999998)
+scale = Vector2(1.6919998, 1.6233749)
 texture = ExtResource("6_ex1bp")
 
 [node name="sun" type="Sprite2D" parent="."]

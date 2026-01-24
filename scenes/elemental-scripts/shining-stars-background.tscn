@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://l1j4tfi2ihpy" path="res://images/stars/newstar.png" id="6_v82n3"]
 
 [node name="shining-stars-background" type="Node2D"]
+position = Vector2(0, 1)
 
 [node name="major" type="Sprite2D" parent="."]
 script = ExtResource("2_yypmc")
@@ -19,7 +20,7 @@ scale = Vector2(0.36200008, 0.30664063)
 texture = ExtResource("1_kv4lr")
 
 [node name="MoreStars(1)" type="Sprite2D" parent="major"]
-position = Vector2(155, 539)
+position = Vector2(251, 770)
 texture = ExtResource("2_avbil")
 
 [node name="MoreStars(2)" type="Sprite2D" parent="major"]
@@ -50,7 +51,7 @@ scale = Vector2(0.8853036, 0.9442439)
 texture = ExtResource("4_ss8t1")
 
 [node name="MoreStars(1)2" type="Sprite2D" parent="major"]
-position = Vector2(375.00003, 581.00006)
+position = Vector2(279, 579)
 scale = Vector2(0.33510637, 0.4174107)
 texture = ExtResource("2_avbil")
 
@@ -66,24 +67,24 @@ scale = Vector2(1.0456885, 1.1602129)
 texture = ExtResource("2_avbil")
 
 [node name="MoreStars(1)4" type="Sprite2D" parent="major"]
-position = Vector2(746, 564)
+position = Vector2(974, 874)
 scale = Vector2(0.5, 0.62946427)
 texture = ExtResource("2_avbil")
 
 [node name="MoreStars(1)4" type="Sprite2D" parent="major/MoreStars(1)4"]
-position = Vector2(652.00006, -535.37585)
+position = Vector2(488.00006, -397.1631)
 rotation = -0.44505897
 scale = Vector2(0.7253078, 0.72057635)
 texture = ExtResource("2_avbil")
 
 [node name="MoreStars(1)5" type="Sprite2D" parent="major"]
-position = Vector2(572, 581.99994)
+position = Vector2(684, 762)
 rotation = -1.0698868
 scale = Vector2(0.35182068, 0.3826382)
 texture = ExtResource("2_avbil")
 
 [node name="MoreStars(5)3" type="Sprite2D" parent="major"]
-position = Vector2(771, 346)
+position = Vector2(1090, 348)
 scale = Vector2(0.41428575, 0.41121498)
 texture = ExtResource("4_ss8t1")
 
@@ -116,7 +117,7 @@ scale = Vector2(0.17163268, 0.16909775)
 texture = ExtResource("4_ss8t1")
 
 [node name="MoreStars(4)2" type="Sprite2D" parent="major"]
-position = Vector2(951, 355.00003)
+position = Vector2(1490, 551)
 rotation = -0.20245819
 scale = Vector2(1.2248203, 1.2086861)
 texture = ExtResource("5_c2mlt")
@@ -147,7 +148,7 @@ scale = Vector2(0.17163268, 0.16909775)
 texture = ExtResource("4_ss8t1")
 
 [node name="Newstar" type="Sprite2D" parent="major"]
-position = Vector2(528.00006, 299)
+position = Vector2(1560, 210.00006)
 scale = Vector2(0.994, 0.95)
 texture = ExtResource("6_v82n3")
 
@@ -189,7 +190,7 @@ scale = Vector2(0.39832592, 0.42699605)
 texture = ExtResource("6_v82n3")
 
 [node name="Newstar4" type="Sprite2D" parent="major/Newstar4"]
-position = Vector2(-1057.0729, -280.39664)
+position = Vector2(-2165.7847, 426.88998)
 rotation = -2.4050636
 scale = Vector2(0.98399144, 0.9716806)
 texture = ExtResource("6_v82n3")

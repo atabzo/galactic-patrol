@@ -6,15 +6,15 @@
 [node name="timer-notification" type="Node2D"]
 
 [node name="notification-panels" parent="." instance=ExtResource("1_bfyj3")]
-position = Vector2(-582, -177)
+position = Vector2(749, 245)
 
 [node name="Label" type="Label" parent="notification-panels"]
-offset_left = 1190.0
-offset_top = 324.0
-offset_right = 1641.8638
-offset_bottom = 507.57117
+offset_left = 1123.0
+offset_top = 549.0
+offset_right = 1574.8638
+offset_bottom = 732.57117
 rotation = -0.006062911
 theme_override_fonts/font = ExtResource("2_am4cu")
 theme_override_font_sizes/font_size = 35
-text = "captain whatever yeah okay bruh nevermind blehhhh	"
+text = "captain we're running out of time!"
 autowrap_mode = 2
