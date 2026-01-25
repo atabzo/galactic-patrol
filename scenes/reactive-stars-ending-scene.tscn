@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://b4k5opo70c3ey"]
+[gd_scene load_steps=12 format=3 uid="uid://b4k5opo70c3ey"]
 
 [ext_resource type="Texture2D" uid="uid://cir5ijduenjpk" path="res://images/backdrops/banner.jpg" id="1_rrifj"]
 [ext_resource type="Texture2D" uid="uid://dv2wi0cnbull5" path="res://images/end-screen icons/cute-animal-transparent.png" id="2_e15f8"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://dpf1iaj4407ni" path="res://images/more icons/more icons (2).png" id="6_l1exe"]
 [ext_resource type="Script" uid="uid://mgjsjxlgoe82" path="res://scenes/exit-game.gd" id="7_br6qk"]
 [ext_resource type="Script" uid="uid://hvd14fgj3vg6" path="res://scenes/elemental-scripts/to-be-continued-animation.gd" id="9_c2khd"]
+[ext_resource type="Texture2D" uid="uid://mvn5xp6w2mmt" path="res://images/lovely-flowers/lovely flowers (13).png" id="10_1hjdc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_br6qk"]
 radius = 477.84933
@@ -46,10 +47,10 @@ skew = 0.039141536
 texture = ExtResource("4_0a0c3")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 339.0
-offset_top = 385.0
-offset_right = 1259.0
-offset_bottom = 898.0
+offset_left = 301.0
+offset_top = 334.0
+offset_right = 1221.0
+offset_bottom = 847.0
 theme_override_colors/font_color = Color(0.026516618, 0.047029406, 0.0073866593, 1)
 theme_override_fonts/font = ExtResource("5_0a0c3")
 theme_override_font_sizes/font_size = 66
@@ -71,3 +72,8 @@ position = Vector2(1713.75, 1015.5)
 scale = Vector2(0.51430535, 0.5734464)
 texture = ExtResource("6_l1exe")
 script = ExtResource("9_c2khd")
+
+[node name="LovelyFlowers(13)" type="Sprite2D" parent="."]
+position = Vector2(162, 208)
+scale = Vector2(0.68694884, 0.7195122)
+texture = ExtResource("10_1hjdc")

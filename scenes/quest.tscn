@@ -50,7 +50,7 @@ _data = {
 [node name="cosmos-quest" type="Node2D"]
 
 [node name="cosmos-background" parent="." instance=ExtResource("1_k76xp")]
-position = Vector2(-17, 124)
+position = Vector2(22, 184)
 
 [node name="fire" type="Sprite2D" parent="."]
 position = Vector2(933.9999, 276.99988)
@@ -74,10 +74,10 @@ position = Vector2(196, 13)
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Label" type="Label" parent="CanvasLayer"]
-offset_left = 18.0
-offset_top = 950.0
-offset_right = 1941.0
-offset_bottom = 1128.0
+offset_left = 337.0
+offset_top = 1049.0
+offset_right = 2260.0
+offset_bottom = 1227.0
 theme_override_fonts/font = ExtResource("6_ol5eh")
 theme_override_font_sizes/font_size = 95
 text = "heyhey"

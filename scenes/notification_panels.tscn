@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://bg8jcvv5bafss"]
+[gd_scene load_steps=7 format=3 uid="uid://bg8jcvv5bafss"]
 
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_tm3jx"]
+[ext_resource type="Script" uid="uid://cx1ibtet4t7p1" path="res://scenes/notification butotn.gd" id="2_2hsdd"]
 [ext_resource type="Texture2D" uid="uid://ddcx26ed08qnr" path="res://images/lovely-flowers/lovely flowers (14).png" id="3_hla4q"]
 [ext_resource type="Script" uid="uid://co3sb2g7tbefs" path="res://scenes/notif-flower-animation.gd" id="4_2hsdd"]
 
@@ -52,6 +53,7 @@ offset_bottom = 530.0
 theme_override_fonts/font = ExtResource("1_tm3jx")
 theme_override_font_sizes/font_size = 39
 text = "Alrighty"
+script = ExtResource("2_2hsdd")
 
 [node name="LovelyFlowers(14)" type="Sprite2D" parent="message-window"]
 position = Vector2(622.0001, 26.000004)
