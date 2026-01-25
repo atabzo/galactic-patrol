@@ -12,27 +12,13 @@
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -12.0
 offset_top = -17.0
-offset_right = 1189.0
-offset_bottom = 688.0
+offset_right = 1930.0
+offset_bottom = 1109.0
 color = Color(0.39607844, 1, 0.12941177, 1)
 
-[node name="text" type="Label" parent="ColorRect"]
-modulate = Color(0.4670183, 0.13850623, 0, 1)
-layout_mode = 0
-offset_left = 496.0
-offset_top = 48.0
-offset_right = 1184.0
-offset_bottom = 519.0
-theme_override_fonts/font = ExtResource("1_u14vp")
-theme_override_font_sizes/font_size = 62
-text = "Yayyy... You just saved the Earth!!!
-
-The residents of earth are dancing in joy :)"
-autowrap_mode = 2
-
 [node name="Thorfinn" type="Sprite2D" parent="ColorRect"]
-position = Vector2(290, 320.00003)
-scale = Vector2(1.1043516, 1.0075078)
+position = Vector2(455.00003, 485.99997)
+scale = Vector2(1.7201831, 1.6650342)
 texture = ExtResource("2_agp5w")
 offset = Vector2(-50.298294, 72.750305)
 
@@ -43,17 +29,31 @@ texture = ExtResource("3_i70nl")
 script = ExtResource("4_qar6k")
 
 [node name="gratitude-icon" type="Sprite2D" parent="ColorRect"]
-position = Vector2(1071, 576)
-scale = Vector2(0.28802294, 0.30379748)
+position = Vector2(1685.0001, 910)
+scale = Vector2(0.5489544, 0.5654008)
 texture = ExtResource("4_i70nl")
 
 [node name="Button" type="Button" parent="ColorRect"]
 layout_mode = 0
-offset_left = 745.0
-offset_top = 537.0
-offset_right = 995.0
-offset_bottom = 633.0
+offset_left = 1106.0
+offset_top = 840.0
+offset_right = 1516.0
+offset_bottom = 994.0
 theme_override_fonts/font = ExtResource("1_u14vp")
-theme_override_font_sizes/font_size = 47
+theme_override_font_sizes/font_size = 79
 text = "continue"
 script = ExtResource("5_qar6k")
+
+[node name="text" type="Label" parent="ColorRect"]
+modulate = Color(0.4670183, 0.13850623, 0, 1)
+layout_mode = 0
+offset_left = 817.0
+offset_top = 141.0
+offset_right = 1860.0
+offset_bottom = 668.0
+theme_override_fonts/font = ExtResource("1_u14vp")
+theme_override_font_sizes/font_size = 85
+text = "Yayyy... You just saved the Earth!!!
+
+The residents of earth are dancing in joy :)"
+autowrap_mode = 2

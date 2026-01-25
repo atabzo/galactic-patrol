@@ -38,7 +38,7 @@ theme_override_font_sizes/font_size = 57
 text = "yes, I'll leave"
 
 [node name="MoreIcons(4)" type="Sprite2D" parent="."]
-position = Vector2(1547, 632)
+position = Vector2(1530, 617)
 texture = ExtResource("3_g333y")
 
 [node name="Flowers" type="Sprite2D" parent="."]

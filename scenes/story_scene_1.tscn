@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://4yudi1ru06qp"]
+[gd_scene load_steps=6 format=3 uid="uid://4yudi1ru06qp"]
 
 [ext_resource type="Texture2D" uid="uid://b64jfg1pllfed" path="res://images/backdrops/banner-2.jpg" id="1_vn5k7"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="3_fin8p"]
 [ext_resource type="Texture2D" uid="uid://bdgrq478eooyp" path="res://images/spaceship/rocket.png" id="3_xt70l"]
 [ext_resource type="Texture2D" uid="uid://c7jd3kgo8fm4t" path="res://images/stars/more stars (1).png" id="4_5vm2e"]
+[ext_resource type="AudioStream" uid="uid://d2pnb8vk1nta7" path="res://audios/sound-click.mp3" id="5_xt70l"]
 
 [node name="story-scene-1" type="Node2D"]
 
@@ -15,20 +16,35 @@ scale = Vector2(1.495413, 1.5421194)
 texture = ExtResource("1_vn5k7")
 
 [node name="StarsYay" type="Sprite2D" parent="Sprite2D"]
-position = Vector2(1541, 849)
+position = Vector2(1530, 854)
 texture = ExtResource("4_5vm2e")
 
 [node name="spaceship-img" type="Sprite2D" parent="Sprite2D"]
-position = Vector2(721, 498)
-scale = Vector2(0.6434426, 0.6042735)
+position = Vector2(635, 416)
+scale = Vector2(0.79713106, 0.8491453)
 texture = ExtResource("3_xt70l")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = 1005.0
-offset_top = 400.0
-offset_right = 1530.0
-offset_bottom = 778.0
+offset_left = 854.0
+offset_top = 342.0
+offset_right = 1465.0
+offset_bottom = 720.0
+theme_override_colors/font_color = Color(0.23943368, 0.097152464, 0.32494605, 1)
 theme_override_fonts/font = ExtResource("3_fin8p")
 theme_override_font_sizes/font_size = 101
-text = "this is you!"
+text = "okay so this is you!"
 autowrap_mode = 2
+
+[node name="Label2" type="Label" parent="Sprite2D"]
+offset_left = 701.0
+offset_top = 668.0
+offset_right = 1330.0
+offset_bottom = 774.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_fin8p")
+theme_override_font_sizes/font_size = 35
+text = "you're carrying just get back to earth safely, okay?"
+autowrap_mode = 2
+
+[node name="SoundClick" type="AudioStreamPlayer" parent="Sprite2D"]
+stream = ExtResource("5_xt70l")

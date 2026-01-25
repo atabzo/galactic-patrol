@@ -1,71 +1,53 @@
-[gd_scene load_steps=12 format=3 uid="uid://b4k5opo70c3ey"]
+[gd_scene load_steps=10 format=3 uid="uid://b4k5opo70c3ey"]
 
-[ext_resource type="Texture2D" uid="uid://cir5ijduenjpk" path="res://images/backdrops/banner.jpg" id="1_rrifj"]
+[ext_resource type="Texture2D" uid="uid://2ws08qac2328" path="res://images/backdrops/high quality cosmos.jpg" id="1_1hjdc"]
 [ext_resource type="Texture2D" uid="uid://dv2wi0cnbull5" path="res://images/end-screen icons/cute-animal-transparent.png" id="2_e15f8"]
-[ext_resource type="Script" uid="uid://g5n320mrinmv" path="res://scenes/reactive-stars.gd" id="3_l1exe"]
-[ext_resource type="Texture2D" uid="uid://dh0w2gmc6scsd" path="res://images/welcome-screen/decorative-stars.png" id="4_0a0c3"]
-[ext_resource type="FontFile" uid="uid://cgubdup60y4ta" path="res://fonts/OriginalSurfer-Regular.ttf" id="5_0a0c3"]
+[ext_resource type="Texture2D" uid="uid://bcgqoch6yddtl" path="res://images/backdrops/paper2.png" id="2_kphrh"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="5_e15f8"]
 [ext_resource type="Texture2D" uid="uid://dpf1iaj4407ni" path="res://images/more icons/more icons (2).png" id="6_l1exe"]
 [ext_resource type="Script" uid="uid://mgjsjxlgoe82" path="res://scenes/exit-game.gd" id="7_br6qk"]
 [ext_resource type="Script" uid="uid://hvd14fgj3vg6" path="res://scenes/elemental-scripts/to-be-continued-animation.gd" id="9_c2khd"]
 [ext_resource type="Texture2D" uid="uid://mvn5xp6w2mmt" path="res://images/lovely-flowers/lovely flowers (13).png" id="10_1hjdc"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_br6qk"]
-radius = 477.84933
+[ext_resource type="Texture2D" uid="uid://duhx0i05wpqgp" path="res://images/lovely-flowers/lovely flowers (2).png" id="10_aomlm"]
 
 [node name="wip-scene" type="Node2D"]
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(948.75, 539.5)
-scale = Vector2(1.4988531, 1.5122283)
-texture = ExtResource("1_rrifj")
+position = Vector2(953.0005, 421.49988)
+scale = Vector2(0.5128092, 0.56710845)
+texture = ExtResource("1_1hjdc")
 
-[node name="CuteAnimalTransparent" type="Sprite2D" parent="."]
-position = Vector2(1532.0001, 537)
-scale = Vector2(1.100681, 1.1981958)
-texture = ExtResource("2_e15f8")
-
-[node name="Area2D" type="Area2D" parent="."]
-script = ExtResource("3_l1exe")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(1521, 479)
-shape = SubResource("CircleShape2D_br6qk")
-
-[node name="DecorativeStars" type="Sprite2D" parent="Area2D"]
-position = Vector2(1617, 843.9999)
-rotation = -0.28972465
-scale = Vector2(0.7253117, 0.768423)
-texture = ExtResource("4_0a0c3")
-
-[node name="DecorativeStars2" type="Sprite2D" parent="Area2D/DecorativeStars"]
-position = Vector2(-281.7981, -98.11529)
-rotation = -0.08726646
-scale = Vector2(0.9267572, 0.8291059)
-skew = 0.039141536
-texture = ExtResource("4_0a0c3")
+[node name="Paper2" type="Sprite2D" parent="."]
+position = Vector2(979.00006, 558.00006)
+rotation = -3.1415925
+scale = Vector2(3.2645538, 3.1858532)
+texture = ExtResource("2_kphrh")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 301.0
-offset_top = 334.0
-offset_right = 1221.0
-offset_bottom = 847.0
+offset_left = 304.0
+offset_top = 300.0
+offset_right = 1378.0
+offset_bottom = 878.0
 theme_override_colors/font_color = Color(0.026516618, 0.047029406, 0.0073866593, 1)
-theme_override_fonts/font = ExtResource("5_0a0c3")
+theme_override_fonts/font = ExtResource("5_e15f8")
 theme_override_font_sizes/font_size = 66
-text = "so... that's all for the first ship, and stay tuned since I'll improve this with a better storyline, animation and lots of whimsical scenes!!!"
+text = "and... that's all for the first ship, and stay tuned as I'll improve this with a much better storyline, animation and lots of whimsical scenes in the coming update!!!"
 autowrap_mode = 2
 
 [node name="Button" type="Button" parent="."]
-offset_left = 975.0
-offset_top = 832.0
-offset_right = 1165.0
-offset_bottom = 900.0
+offset_left = 1085.0
+offset_top = 840.0
+offset_right = 1275.0
+offset_bottom = 908.0
 theme_override_fonts/font = ExtResource("5_e15f8")
 theme_override_font_sizes/font_size = 50
 text = "byee!"
 script = ExtResource("7_br6qk")
+
+[node name="CuteAnimalTransparent" type="Sprite2D" parent="."]
+position = Vector2(1594.0625, 514.78125)
+scale = Vector2(1.1048152, 1.1166236)
+texture = ExtResource("2_e15f8")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(1713.75, 1015.5)
@@ -74,6 +56,11 @@ texture = ExtResource("6_l1exe")
 script = ExtResource("9_c2khd")
 
 [node name="LovelyFlowers(13)" type="Sprite2D" parent="."]
-position = Vector2(162, 208)
-scale = Vector2(0.68694884, 0.7195122)
+position = Vector2(209.00002, 215)
+scale = Vector2(0.6044974, 0.63742965)
 texture = ExtResource("10_1hjdc")
+
+[node name="LovelyFlowers(2)" type="Sprite2D" parent="."]
+position = Vector2(1265, 487)
+scale = Vector2(0.18342394, 0.20788045)
+texture = ExtResource("10_aomlm")

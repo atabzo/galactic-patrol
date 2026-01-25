@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://3ij332oy6agh"]
+
+[ext_resource type="Texture2D" uid="uid://2ws08qac2328" path="res://images/backdrops/high quality cosmos.jpg" id="1_5nftm"]
+
+[node name="cosmos-background" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1066, 539)
+scale = Vector2(0.48299474, 0.47502545)
+texture = ExtResource("1_5nftm")
+
+[node name="HighQualityCosmos" type="Sprite2D" parent="."]
+position = Vector2(-850.99994, 473.0001)
+scale = Vector2(0.3915636, 0.4524295)
+texture = ExtResource("1_5nftm")
+
+[node name="HighQualityCosmos2" type="Sprite2D" parent="."]
+position = Vector2(-838, 1783)
+scale = Vector2(0.36616609, 0.4493714)
+texture = ExtResource("1_5nftm")
+
+[node name="HighQualityCosmos3" type="Sprite2D" parent="."]
+position = Vector2(974.99994, 1873.9999)
+scale = Vector2(0.44412544, 0.4717975)
+texture = ExtResource("1_5nftm")

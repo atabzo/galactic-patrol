@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://bfwko0sr7sj7h"]
+[gd_scene load_steps=6 format=3 uid="uid://bfwko0sr7sj7h"]
 
 [ext_resource type="PackedScene" uid="uid://doqhhk0o3kfih" path="res://scenes/cosmos-background.tscn" id="1_pomre"]
+[ext_resource type="PackedScene" uid="uid://3ij332oy6agh" path="res://scenes/cosmos-new.tscn" id="2_76v1n"]
 [ext_resource type="PackedScene" uid="uid://3ftjinsp46ma" path="res://scenes/planets.tscn" id="2_i8n5b"]
 [ext_resource type="PackedScene" uid="uid://5itikjci4prl" path="res://scenes/spaceship.tscn" id="3_76v1n"]
 [ext_resource type="Script" uid="uid://6ettbg05a0wo" path="res://scenes/elemental-scripts/camera-alternate-quest.gd" id="4_irmld"]
@@ -9,12 +10,16 @@
 
 [node name="cosmos-background" parent="." instance=ExtResource("1_pomre")]
 
+[node name="cosmos-background2" parent="." instance=ExtResource("2_76v1n")]
+
 [node name="planets" parent="." instance=ExtResource("2_i8n5b")]
+position = Vector2(-9, 217)
 
 [node name="Spaceship" parent="." instance=ExtResource("3_76v1n")]
-position = Vector2(1226, 649)
+position = Vector2(1097, 584.00006)
 
 [node name="Camera2D" type="Camera2D" parent="." node_paths=PackedStringArray("target")]
+position = Vector2(948, 538)
 position_smoothing_enabled = true
 script = ExtResource("4_irmld")
 target = NodePath("../Spaceship")

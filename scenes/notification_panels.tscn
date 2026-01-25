@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://bg8jcvv5bafss"]
+[gd_scene load_steps=8 format=3 uid="uid://bg8jcvv5bafss"]
 
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_tm3jx"]
 [ext_resource type="Script" uid="uid://cx1ibtet4t7p1" path="res://scenes/notification butotn.gd" id="2_2hsdd"]
 [ext_resource type="Texture2D" uid="uid://ddcx26ed08qnr" path="res://images/lovely-flowers/lovely flowers (14).png" id="3_hla4q"]
 [ext_resource type="Script" uid="uid://co3sb2g7tbefs" path="res://scenes/notif-flower-animation.gd" id="4_2hsdd"]
+[ext_resource type="AudioStream" uid="uid://d2pnb8vk1nta7" path="res://audios/sound-click.mp3" id="5_lu3sy"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8slss"]
 bg_color = Color(0.17343155, 0.2982399, 0.45131648, 1)
@@ -20,10 +21,10 @@ border_width_bottom = 5
 [node name="notification-panels" type="Node2D"]
 
 [node name="message-window" type="Panel" parent="."]
-offset_left = 170.0
-offset_top = 140.0
-offset_right = 824.0
-offset_bottom = 697.0
+offset_left = 172.0
+offset_top = 245.0
+offset_right = 826.0
+offset_bottom = 802.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_8slss")
 
 [node name="header" type="Panel" parent="message-window"]
@@ -60,3 +61,6 @@ position = Vector2(622.0001, 26.000004)
 scale = Vector2(0.1585034, 0.14520548)
 texture = ExtResource("3_hla4q")
 script = ExtResource("4_2hsdd")
+
+[node name="SoundClick" type="AudioStreamPlayer" parent="message-window"]
+stream = ExtResource("5_lu3sy")

@@ -8,13 +8,13 @@
 [ext_resource type="Script" uid="uid://u8ajlalniwrq" path="res://scenes/play-button.gd" id="6_dtwsp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dtwsp"]
-size = Vector2(737.21185, 509.14713)
+size = Vector2(1332.4668, 888.4525)
 
 [node name="login-screen" type="Node2D"]
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(584.5609, 326.2919)
-scale = Vector2(0.7417989, 0.76379573)
+position = Vector2(961.061, 541.29193)
+scale = Vector2(1.2124239, 1.2415736)
 texture = ExtResource("1_kcwbp")
 
 [node name="reactive-paper" type="Area2D" parent="."]
@@ -22,14 +22,9 @@ position = Vector2(578.5133, 342.51996)
 scale = Vector2(0.992882, 0.91342413)
 script = ExtResource("2_kcwbp")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="reactive-paper"]
-position = Vector2(-4.5456543, -6.043152)
-scale = Vector2(1, 0.99999964)
-shape = SubResource("RectangleShape2D_dtwsp")
-
 [node name="Paper" type="Sprite2D" parent="reactive-paper"]
-position = Vector2(-6.5600004, 1.6203196)
-scale = Vector2(1, 0.99999994)
+position = Vector2(355.01385, 222.7662)
+scale = Vector2(1.7879635, 1.7042598)
 texture = ExtResource("2_dtwsp")
 flip_h = true
 flip_v = true
@@ -68,11 +63,16 @@ horizontal_alignment = 1
 autowrap_mode = 2
 
 [node name="Button" type="Button" parent="reactive-paper/Paper"]
-offset_left = -148.57083
-offset_top = 124.23584
-offset_right = 151.42917
-offset_bottom = 219.23584
+offset_left = -144.02516
+offset_top = 111.66774
+offset_right = 144.02516
+offset_bottom = 217.86159
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 34
 text = "play play play?"
 script = ExtResource("6_dtwsp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="reactive-paper/Paper"]
+position = Vector2(-3.0932007, 3.3617554)
+scale = Vector2(0.5592955, 0.58676475)
+shape = SubResource("RectangleShape2D_dtwsp")

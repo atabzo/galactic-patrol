@@ -1,14 +1,11 @@
 extends Button
 
 var tween: Tween
-@onready var hover_sound = $HoverSound  # AudioStreamPlayer
-@onready var click_sound = $ClickSound  # AudioStreamPlayer
+@onready var click_sound = $"../SoundClick"
 
 func _ready():
-	# Set pivot to center for scaling
 	pivot_offset = size / 2
 	
-	# Connect button signals
 	mouse_entered.connect(_on_mouse_entered)
 	mouse_exited.connect(_on_mouse_exited)
 	button_up.connect(_on_button_up)
@@ -19,9 +16,6 @@ func _on_mouse_entered():
 		tween.kill()
 	tween = create_tween().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 	tween.tween_property(self, "scale", Vector2(1.1, 1.1), 0.3)
-	
-	if hover_sound:
-		hover_sound.play()
 
 func _on_mouse_exited():
 	if tween:
@@ -36,16 +30,11 @@ func _on_button_up():
 	tween.tween_property(self, "scale", Vector2(1.1, 1.1), 0.2)
 
 func _on_pressed():
-	print("Button pressed!") # Debug line
+	print("Button pressed!")
 	
-	# Play click sound
 	if click_sound:
 		click_sound.play()
+		# Wait for sound to finish, then delete scene
+		await click_sound.finished
 	
-	# Try getting the scene root directly
-	var scene_root = get_tree().current_scene
-	if scene_root:
-		scene_root.queue_free()
-	else:
-		# Fallback method
-		owner.queue_free()
+	get_tree().current_scene.queue_free()

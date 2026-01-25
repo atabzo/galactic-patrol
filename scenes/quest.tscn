@@ -61,7 +61,7 @@ texture = ExtResource("2_aqimm")
 script = ExtResource("3_ttfkt")
 
 [node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
-position = Vector2(1626, 551.00006)
+position = Vector2(1618, 689.00006)
 
 [node name="Camera2D" type="Camera2D" parent="Spaceship"]
 position = Vector2(-539.3328, -123.17297)
@@ -74,10 +74,10 @@ position = Vector2(196, 13)
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Label" type="Label" parent="CanvasLayer"]
-offset_left = 337.0
-offset_top = 1049.0
-offset_right = 2260.0
-offset_bottom = 1227.0
+offset_left = -7.0
+offset_top = 886.0
+offset_right = 1916.0
+offset_bottom = 1064.0
 theme_override_fonts/font = ExtResource("6_ol5eh")
 theme_override_font_sizes/font_size = 95
 text = "heyhey"
