@@ -9,12 +9,12 @@
 position = Vector2(4, 2)
 
 [node name="Label" type="Label" parent="notification-panels"]
-offset_left = 1170.0001
-offset_top = 458.0
-offset_right = 1621.8639
-offset_bottom = 641.57117
+offset_left = 1204.0001
+offset_top = 369.00003
+offset_right = 1619.0824
+offset_bottom = 596.0
 rotation = -0.006062911
 theme_override_fonts/font = ExtResource("2_am4cu")
 theme_override_font_sizes/font_size = 35
-text = "captain we're running out of time!"
+text = "Captain <user>, Buckle up your seatbelts... we're very close to home!!!"
 autowrap_mode = 2

@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://bg8jcvv5bafss"]
 
-[ext_resource type="Script" uid="uid://c88w870sfd28f" path="res://scenes/message_window.gd" id="1_aop0r"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_tm3jx"]
-[ext_resource type="Texture2D" uid="uid://d1q15rraqba0v" path="res://images/icons/flower.png" id="2_8slss"]
+[ext_resource type="Texture2D" uid="uid://ddcx26ed08qnr" path="res://images/lovely-flowers/lovely flowers (14).png" id="3_hla4q"]
+[ext_resource type="Script" uid="uid://co3sb2g7tbefs" path="res://scenes/notif-flower-animation.gd" id="4_2hsdd"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8slss"]
-bg_color = Color(0.5523921, 0.03912166, 0.13399476, 1)
+bg_color = Color(0.17343155, 0.2982399, 0.45131648, 1)
 border_width_left = 5
 border_width_top = 5
 border_width_right = 5
@@ -24,7 +24,6 @@ offset_top = 245.0
 offset_right = 1642.0
 offset_bottom = 765.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_8slss")
-script = ExtResource("1_aop0r")
 
 [node name="header" type="Panel" parent="message-window"]
 layout_mode = 0
@@ -46,15 +45,16 @@ text = "Hey, You've a message!"
 
 [node name="button" type="Button" parent="message-window"]
 layout_mode = 0
-offset_left = 165.0
-offset_top = 428.0
-offset_right = 290.0
-offset_bottom = 488.0
+offset_left = 151.0
+offset_top = 434.0
+offset_right = 317.0
+offset_bottom = 494.0
 theme_override_fonts/font = ExtResource("1_tm3jx")
 theme_override_font_sizes/font_size = 34
-text = "Okay!"
+text = "Alrighty!"
 
-[node name="flower" type="Sprite2D" parent="message-window"]
-position = Vector2(469, 16)
-scale = Vector2(0.14362118, 0.12991507)
-texture = ExtResource("2_8slss")
+[node name="LovelyFlowers(14)" type="Sprite2D" parent="."]
+position = Vector2(1627.0001, 268.00003)
+scale = Vector2(0.1585034, 0.14520548)
+texture = ExtResource("3_hla4q")
+script = ExtResource("4_2hsdd")

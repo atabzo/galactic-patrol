@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b4k5opo70c3ey"]
+[gd_scene load_steps=9 format=3 uid="uid://b4k5opo70c3ey"]
 
 [ext_resource type="Texture2D" uid="uid://cir5ijduenjpk" path="res://images/backdrops/banner.jpg" id="1_rrifj"]
 [ext_resource type="Texture2D" uid="uid://dv2wi0cnbull5" path="res://images/end-screen icons/cute-animal-transparent.png" id="2_e15f8"]
@@ -8,61 +8,63 @@
 [ext_resource type="Texture2D" uid="uid://dpf1iaj4407ni" path="res://images/more icons/more icons (2).png" id="6_l1exe"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_br6qk"]
-radius = 188.00266
+radius = 477.84933
+
+[sub_resource type="SystemFont" id="SystemFont_l1exe"]
 
 [node name="wip-scene" type="Node2D"]
 
 [node name="background" type="Sprite2D" parent="."]
-position = Vector2(567, 322)
-scale = Vector2(0.9151376, 0.9211956)
+position = Vector2(948.75, 539.5)
+scale = Vector2(1.4988531, 1.5122283)
 texture = ExtResource("1_rrifj")
 
 [node name="CuteAnimalTransparent" type="Sprite2D" parent="."]
-position = Vector2(901, 318)
-scale = Vector2(0.6643968, 0.6726804)
+position = Vector2(1532.0001, 537)
+scale = Vector2(1.100681, 1.1981958)
 texture = ExtResource("2_e15f8")
 
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource("3_l1exe")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(602, 504)
+position = Vector2(1521, 479)
 shape = SubResource("CircleShape2D_br6qk")
 
 [node name="DecorativeStars" type="Sprite2D" parent="Area2D"]
-position = Vector2(982.99994, 500.99997)
+position = Vector2(1617, 843.9999)
 rotation = -0.28972465
-scale = Vector2(0.6632089, 0.6742017)
+scale = Vector2(0.7253117, 0.768423)
 texture = ExtResource("4_0a0c3")
 
 [node name="DecorativeStars2" type="Sprite2D" parent="Area2D/DecorativeStars"]
-position = Vector2(-196.82231, -67.005005)
+position = Vector2(-281.7981, -98.11529)
 rotation = -0.08726646
-scale = Vector2(0.59960264, 0.60248834)
+scale = Vector2(0.9267572, 0.8291059)
 skew = 0.039141536
 texture = ExtResource("4_0a0c3")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 181.0
-offset_top = 213.0
-offset_right = 755.0
-offset_bottom = 475.0
-theme_override_colors/font_color = Color(0.15425843, 0.0002937179, 0.36303174, 1)
-theme_override_fonts/font = ExtResource("5_e15f8")
-theme_override_font_sizes/font_size = 41
-text = "so that's all for the first ship, stay tuned... I'll improve and polish this with new scenes in the next update!!!"
+offset_left = 341.0
+offset_top = 372.0
+offset_right = 1195.0
+offset_bottom = 764.0
+theme_override_colors/font_color = Color(0.026516618, 0.047029406, 0.0073866593, 1)
+theme_override_fonts/font = SubResource("SystemFont_l1exe")
+theme_override_font_sizes/font_size = 55
+text = "so... that's all for the first ship, stay tuned since I'll improve and polish this with new whimsical scenes in the next update!!!"
 autowrap_mode = 2
 
 [node name="Button" type="Button" parent="."]
-offset_left = 518.0
-offset_top = 461.0
-offset_right = 708.0
-offset_bottom = 529.0
+offset_left = 975.0
+offset_top = 832.0
+offset_right = 1165.0
+offset_bottom = 900.0
 theme_override_fonts/font = ExtResource("5_e15f8")
 theme_override_font_sizes/font_size = 50
 text = "byee!"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(977, 609)
-scale = Vector2(0.4482289, 0.53107345)
+position = Vector2(1713.75, 1015.5)
+scale = Vector2(0.51430535, 0.5734464)
 texture = ExtResource("6_l1exe")

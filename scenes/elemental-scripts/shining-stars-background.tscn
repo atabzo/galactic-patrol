@@ -56,7 +56,7 @@ scale = Vector2(0.33510637, 0.4174107)
 texture = ExtResource("2_avbil")
 
 [node name="MoreStars(1)3" type="Sprite2D" parent="major"]
-position = Vector2(501.03122, 467.0625)
+position = Vector2(677, 538)
 scale = Vector2(0.2976063, 0.31194177)
 texture = ExtResource("2_avbil")
 
@@ -164,7 +164,7 @@ scale = Vector2(0.33200008, 0.332)
 texture = ExtResource("6_v82n3")
 
 [node name="Newstar3" type="Sprite2D" parent="major"]
-position = Vector2(658, 466.99997)
+position = Vector2(847, 510)
 scale = Vector2(0.33200008, 0.332)
 texture = ExtResource("6_v82n3")
 
