@@ -6,15 +6,17 @@
 [node name="timer-notification" type="Node2D"]
 
 [node name="notification-panels" parent="." instance=ExtResource("1_bfyj3")]
-position = Vector2(4, 2)
+position = Vector2(9, 2)
 
 [node name="Label" type="Label" parent="notification-panels"]
-offset_left = 1204.0001
-offset_top = 369.00003
-offset_right = 1619.0824
-offset_bottom = 596.0
+offset_left = 208.0
+offset_top = 293.0
+offset_right = 764.2849
+offset_bottom = 589.0046
 rotation = -0.006062911
 theme_override_fonts/font = ExtResource("2_am4cu")
 theme_override_font_sizes/font_size = 35
-text = "Captain <user>, Buckle up your seatbelts... we're very close to home!!!"
+text = "Captain <user>, We're almost there!!!
+
+Buckle up your seatbelts :D"
 autowrap_mode = 2

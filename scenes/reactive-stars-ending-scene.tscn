@@ -1,16 +1,17 @@
-[gd_scene load_steps=9 format=3 uid="uid://b4k5opo70c3ey"]
+[gd_scene load_steps=11 format=3 uid="uid://b4k5opo70c3ey"]
 
 [ext_resource type="Texture2D" uid="uid://cir5ijduenjpk" path="res://images/backdrops/banner.jpg" id="1_rrifj"]
 [ext_resource type="Texture2D" uid="uid://dv2wi0cnbull5" path="res://images/end-screen icons/cute-animal-transparent.png" id="2_e15f8"]
 [ext_resource type="Script" uid="uid://g5n320mrinmv" path="res://scenes/reactive-stars.gd" id="3_l1exe"]
 [ext_resource type="Texture2D" uid="uid://dh0w2gmc6scsd" path="res://images/welcome-screen/decorative-stars.png" id="4_0a0c3"]
+[ext_resource type="FontFile" uid="uid://cgubdup60y4ta" path="res://fonts/OriginalSurfer-Regular.ttf" id="5_0a0c3"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="5_e15f8"]
 [ext_resource type="Texture2D" uid="uid://dpf1iaj4407ni" path="res://images/more icons/more icons (2).png" id="6_l1exe"]
+[ext_resource type="Script" uid="uid://mgjsjxlgoe82" path="res://scenes/exit-game.gd" id="7_br6qk"]
+[ext_resource type="Script" uid="uid://hvd14fgj3vg6" path="res://scenes/elemental-scripts/to-be-continued-animation.gd" id="9_c2khd"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_br6qk"]
 radius = 477.84933
-
-[sub_resource type="SystemFont" id="SystemFont_l1exe"]
 
 [node name="wip-scene" type="Node2D"]
 
@@ -45,14 +46,14 @@ skew = 0.039141536
 texture = ExtResource("4_0a0c3")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 341.0
-offset_top = 372.0
-offset_right = 1195.0
-offset_bottom = 764.0
+offset_left = 339.0
+offset_top = 385.0
+offset_right = 1259.0
+offset_bottom = 898.0
 theme_override_colors/font_color = Color(0.026516618, 0.047029406, 0.0073866593, 1)
-theme_override_fonts/font = SubResource("SystemFont_l1exe")
-theme_override_font_sizes/font_size = 55
-text = "so... that's all for the first ship, stay tuned since I'll improve and polish this with new whimsical scenes in the next update!!!"
+theme_override_fonts/font = ExtResource("5_0a0c3")
+theme_override_font_sizes/font_size = 66
+text = "so... that's all for the first ship, and stay tuned since I'll improve this with a better storyline, animation and lots of whimsical scenes!!!"
 autowrap_mode = 2
 
 [node name="Button" type="Button" parent="."]
@@ -63,8 +64,10 @@ offset_bottom = 900.0
 theme_override_fonts/font = ExtResource("5_e15f8")
 theme_override_font_sizes/font_size = 50
 text = "byee!"
+script = ExtResource("7_br6qk")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(1713.75, 1015.5)
 scale = Vector2(0.51430535, 0.5734464)
 texture = ExtResource("6_l1exe")
+script = ExtResource("9_c2khd")

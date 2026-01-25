@@ -15,18 +15,18 @@ scale = Vector2(1.495413, 1.5421194)
 texture = ExtResource("1_vn5k7")
 
 [node name="StarsYay" type="Sprite2D" parent="Sprite2D"]
-position = Vector2(1235, 635)
+position = Vector2(1541, 849)
 texture = ExtResource("4_5vm2e")
 
 [node name="spaceship-img" type="Sprite2D" parent="Sprite2D"]
-position = Vector2(379.00003, 253)
+position = Vector2(721, 498)
 scale = Vector2(0.6434426, 0.6042735)
 texture = ExtResource("3_xt70l")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = 752.0
+offset_left = 1005.0
 offset_top = 400.0
-offset_right = 1277.0
+offset_right = 1530.0
 offset_bottom = 778.0
 theme_override_fonts/font = ExtResource("3_fin8p")
 theme_override_font_sizes/font_size = 101

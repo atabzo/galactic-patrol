@@ -13,48 +13,48 @@ border_width_bottom = 5
 border_color = Color(0.8216251, 0.7587016, 0.9880515, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aop0r"]
-bg_color = Color(1.540184e-06, 0.64289296, 0.92536026, 1)
+bg_color = Color(0.8235294, 0.75686276, 0.9882353, 1)
 border_width_bottom = 5
 
 [node name="notification-panels" type="Node2D"]
 
 [node name="message-window" type="Panel" parent="."]
-offset_left = 1166.0
-offset_top = 245.0
-offset_right = 1642.0
-offset_bottom = 765.0
+offset_left = 170.0
+offset_top = 140.0
+offset_right = 824.0
+offset_bottom = 697.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_8slss")
 
 [node name="header" type="Panel" parent="message-window"]
 layout_mode = 0
 offset_left = 2.0
-offset_top = 3.0
-offset_right = 472.0
-offset_bottom = 53.0
+offset_top = 4.0
+offset_right = 651.0
+offset_bottom = 84.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_aop0r")
 
 [node name="header-text" type="Label" parent="message-window"]
 layout_mode = 0
 offset_left = 17.0
-offset_top = 9.0
-offset_right = 380.0
-offset_bottom = 57.0
+offset_top = 21.0
+offset_right = 622.0
+offset_bottom = 81.0
 theme_override_fonts/font = ExtResource("1_tm3jx")
-theme_override_font_sizes/font_size = 30
-text = "Hey, You've a message!"
+theme_override_font_sizes/font_size = 43
+text = "Hey, You've a message!!!"
 
 [node name="button" type="Button" parent="message-window"]
 layout_mode = 0
-offset_left = 151.0
-offset_top = 434.0
-offset_right = 317.0
-offset_bottom = 494.0
+offset_left = 189.0
+offset_top = 448.0
+offset_right = 454.0
+offset_bottom = 530.0
 theme_override_fonts/font = ExtResource("1_tm3jx")
-theme_override_font_sizes/font_size = 34
-text = "Alrighty!"
+theme_override_font_sizes/font_size = 39
+text = "Alrighty"
 
-[node name="LovelyFlowers(14)" type="Sprite2D" parent="."]
-position = Vector2(1627.0001, 268.00003)
+[node name="LovelyFlowers(14)" type="Sprite2D" parent="message-window"]
+position = Vector2(622.0001, 26.000004)
 scale = Vector2(0.1585034, 0.14520548)
 texture = ExtResource("3_hla4q")
 script = ExtResource("4_2hsdd")
