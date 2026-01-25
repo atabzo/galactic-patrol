@@ -31,7 +31,7 @@ The residents of earth are dancing in joy :)"
 autowrap_mode = 2
 
 [node name="Thorfinn" type="Sprite2D" parent="ColorRect"]
-position = Vector2(300, 303)
+position = Vector2(290, 320.00003)
 scale = Vector2(1.1043516, 1.0075078)
 texture = ExtResource("2_agp5w")
 offset = Vector2(-50.298294, 72.750305)
@@ -49,10 +49,10 @@ texture = ExtResource("4_i70nl")
 
 [node name="Button" type="Button" parent="ColorRect"]
 layout_mode = 0
-offset_left = 737.0
-offset_top = 525.0
-offset_right = 987.0
-offset_bottom = 621.0
+offset_left = 745.0
+offset_top = 537.0
+offset_right = 995.0
+offset_bottom = 633.0
 theme_override_fonts/font = ExtResource("1_u14vp")
 theme_override_font_sizes/font_size = 47
 text = "continue"

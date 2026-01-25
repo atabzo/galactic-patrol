@@ -9,10 +9,10 @@
 position = Vector2(4, 2)
 
 [node name="Label" type="Label" parent="notification-panels"]
-offset_left = 1123.0
-offset_top = 549.0
-offset_right = 1574.8638
-offset_bottom = 732.57117
+offset_left = 1170.0001
+offset_top = 458.0
+offset_right = 1621.8639
+offset_bottom = 641.57117
 rotation = -0.006062911
 theme_override_fonts/font = ExtResource("2_am4cu")
 theme_override_font_sizes/font_size = 35

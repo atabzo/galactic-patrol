@@ -4,7 +4,7 @@ extends Label
 var target_position: Vector2
 
 func _ready():
-	target_position = Vector2(1000, -500)
+	target_position = Vector2(0, 10)
 	# Play the pulse animation
 	$AnimationPlayer.play("pulse")
 

@@ -57,13 +57,13 @@ texture = ExtResource("4_5m8ma")
 
 [node name="Label" type="Label" parent="reactive-paper/Paper"]
 modulate = Color(1, 0, 0, 1)
-offset_left = -397.8318
+offset_left = -363.588
 offset_top = -137.94249
-offset_right = 423.1682
-offset_bottom = 105.05751
+offset_right = 382.72424
+offset_bottom = 83.05751
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 90
-text = "gladiators of space"
+text = "what's your name, captain?"
 horizontal_alignment = 1
 autowrap_mode = 2
 

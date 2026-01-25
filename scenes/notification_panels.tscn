@@ -20,9 +20,9 @@ border_width_bottom = 5
 
 [node name="message-window" type="Panel" parent="."]
 offset_left = 1166.0
-offset_top = 315.0
+offset_top = 245.0
 offset_right = 1642.0
-offset_bottom = 835.0
+offset_bottom = 765.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_8slss")
 script = ExtResource("1_aop0r")
 

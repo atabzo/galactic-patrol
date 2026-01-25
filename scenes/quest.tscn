@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://cx4nvljesj1fl"]
+[gd_scene load_steps=13 format=3 uid="uid://cx4nvljesj1fl"]
 
 [ext_resource type="PackedScene" uid="uid://doqhhk0o3kfih" path="res://scenes/cosmos-background.tscn" id="1_k76xp"]
 [ext_resource type="Texture2D" uid="uid://nx5gtlfhwk6w" path="res://images/icons/fire.png" id="2_aqimm"]
@@ -8,10 +8,22 @@
 [ext_resource type="Script" uid="uid://c4ev6pxc4621y" path="res://scenes/camera_2d.gd" id="6_kj15b"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="6_ol5eh"]
 [ext_resource type="Script" uid="uid://bsvahj5uil5l3" path="res://scenes/exit-button.gd" id="7_kj15b"]
-[ext_resource type="Texture2D" uid="uid://f2qn7jo81jrx" path="res://images/lovely-flowers/lovely flowers (11).png" id="9_ao4jg"]
-[ext_resource type="Texture2D" uid="uid://2gustnhflyce" path="res://images/lovely-flowers/lovely flowers (12).png" id="10_qqhq5"]
-[ext_resource type="Texture2D" uid="uid://dsapnlfct4mj6" path="res://images/lovely-flowers/lovely flowers (7).png" id="11_62uld"]
 [ext_resource type="Script" uid="uid://demmfb414ncfe" path="res://scenes/elemental-scripts/quest-subtitles.gd" id="12_0vetw"]
+
+[sub_resource type="Animation" id="Animation_0vetw"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:player")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [null]
+}
 
 [sub_resource type="Animation" id="Animation_k76xp"]
 resource_name = "pulse"
@@ -26,24 +38,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(2),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Object(Node2D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","visible":true,"modulate":Color(1, 1, 1, 1),"self_modulate":Color(1, 1, 1, 1),"show_behind_parent":false,"top_level":false,"clip_children":0,"light_mask":1,"visibility_layer":1,"z_index":0,"z_as_relative":true,"y_sort_enabled":false,"texture_filter":0,"texture_repeat":0,"material":null,"use_parent_material":false,"position":Vector2(1200, 545),"rotation":0.0,"scale":Vector2(1.229297, 1.2502742),"skew":0.0,"script":Resource("res://scenes/spaceship.gd"))
-]
-}
-
-[sub_resource type="Animation" id="Animation_0vetw"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:player")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [Object(Node2D,"_import_path":NodePath(""),"unique_name_in_owner":false,"process_mode":0,"process_priority":0,"process_physics_priority":0,"process_thread_group":0,"physics_interpolation_mode":0,"auto_translate_mode":0,"editor_description":"","visible":true,"modulate":Color(1, 1, 1, 1),"self_modulate":Color(1, 1, 1, 1),"show_behind_parent":false,"top_level":false,"clip_children":0,"light_mask":1,"visibility_layer":1,"z_index":0,"z_as_relative":true,"y_sort_enabled":false,"texture_filter":0,"texture_repeat":0,"material":null,"use_parent_material":false,"position":Vector2(1200, 545),"rotation":0.0,"scale":Vector2(1.229297, 1.2502742),"skew":0.0,"script":Resource("res://scenes/spaceship.gd"))
-]
+"values": [null]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_cnmot"]
@@ -55,7 +50,7 @@ _data = {
 [node name="cosmos-quest" type="Node2D"]
 
 [node name="cosmos-background" parent="." instance=ExtResource("1_k76xp")]
-position = Vector2(-543, -353)
+position = Vector2(-967, -378)
 
 [node name="fire" type="Sprite2D" parent="."]
 position = Vector2(933.9999, 276.99988)
@@ -65,37 +60,20 @@ skew = -0.015207529
 texture = ExtResource("2_aqimm")
 script = ExtResource("3_ttfkt")
 
+[node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
+position = Vector2(825.00006, 336.00003)
+
+[node name="Camera2D" type="Camera2D" parent="Spaceship"]
+position = Vector2(115.51318, 148.76736)
+scale = Vector2(1, 0.9999999)
+script = ExtResource("6_kj15b")
+
 [node name="planets" parent="." instance=ExtResource("3_rwe2g")]
-position = Vector2(272, 248)
-
-[node name="Button" type="Button" parent="."]
-offset_left = 416.0
-offset_top = 16.0
-offset_right = 662.0
-offset_bottom = 121.0
-theme_override_fonts/font = ExtResource("6_ol5eh")
-theme_override_font_sizes/font_size = 53
-text = "exit"
-script = ExtResource("7_kj15b")
-
-[node name="LovelyFlowers(11)" type="Sprite2D" parent="."]
-position = Vector2(573.99994, 816)
-scale = Vector2(1.1571862, 1.0597501)
-texture = ExtResource("9_ao4jg")
-
-[node name="LovelyFlowers(12)" type="Sprite2D" parent="."]
-position = Vector2(1524, -246)
-scale = Vector2(1.0305558, 0.8331249)
-texture = ExtResource("10_qqhq5")
-
-[node name="LovelyFlowers(7)" type="Sprite2D" parent="."]
-position = Vector2(1544.9999, 220)
-scale = Vector2(0.51936275, 0.46900824)
-texture = ExtResource("11_62uld")
+position = Vector2(359, -48)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="Label" type="Label" parent="CanvasLayer" node_paths=PackedStringArray("player")]
+[node name="Label" type="Label" parent="CanvasLayer"]
 offset_left = 33.0
 offset_top = 902.0
 offset_right = 1956.0
@@ -104,16 +82,18 @@ theme_override_fonts/font = ExtResource("6_ol5eh")
 theme_override_font_sizes/font_size = 95
 text = "heyhey"
 script = ExtResource("12_0vetw")
-player = NodePath("../../Spaceship")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="CanvasLayer/Label"]
 libraries = {
 &"": SubResource("AnimationLibrary_cnmot")
 }
 
-[node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
-position = Vector2(1200, 545)
-
-[node name="Camera2D" type="Camera2D" parent="Spaceship"]
-position = Vector2(-196.86049, -1.9073486e-06)
-script = ExtResource("6_kj15b")
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 1362.0
+offset_top = 901.0
+offset_right = 1608.0
+offset_bottom = 1006.0
+theme_override_fonts/font = ExtResource("6_ol5eh")
+theme_override_font_sizes/font_size = 53
+text = "exit"
+script = ExtResource("7_kj15b")

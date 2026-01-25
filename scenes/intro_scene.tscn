@@ -53,13 +53,13 @@ texture = ExtResource("4_0f06d")
 
 [node name="Label" type="Label" parent="."]
 modulate = Color(0.17438853, 0.2298995, 1.92523e-07, 1)
-offset_left = 455.0
-offset_top = 105.0
-offset_right = 1329.0
-offset_bottom = 471.0
+offset_left = 474.0
+offset_top = 161.0
+offset_right = 1226.0
+offset_bottom = 404.0
 theme_override_fonts/font = ExtResource("7_f164h")
 theme_override_font_sizes/font_size = 100
-text = "hmm? i wonder what should i name it"
+text = "gladiators of the cosmos"
 autowrap_mode = 2
 
 [node name="MoreIcons(1)" type="Sprite2D" parent="."]

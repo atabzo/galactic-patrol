@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://3ftjinsp46ma"]
+[gd_scene load_steps=12 format=3 uid="uid://3ftjinsp46ma"]
 
 [ext_resource type="Texture2D" uid="uid://bffkt83ukd43y" path="res://images/planets/neptune.png" id="1_ex1bp"]
 [ext_resource type="Texture2D" uid="uid://cxuaavicd10jf" path="res://images/planets/moon.png" id="2_bkhmr"]
@@ -7,40 +7,64 @@
 [ext_resource type="Texture2D" uid="uid://chhltb5ahu4n5" path="res://images/planets/mars.png" id="6_ex1bp"]
 [ext_resource type="Texture2D" uid="uid://ha0rxqjolob8" path="res://images/planets/sun.png" id="7_bkhmr"]
 [ext_resource type="Texture2D" uid="uid://bu02wkssot1nr" path="res://images/planets/shiny moon.png" id="7_ex1bp"]
+[ext_resource type="Texture2D" uid="uid://f2qn7jo81jrx" path="res://images/lovely-flowers/lovely flowers (11).png" id="9_6ktrl"]
+[ext_resource type="Texture2D" uid="uid://v2hy5wbi2hw" path="res://images/planets/it shines.png" id="10_slkqb"]
+[ext_resource type="Texture2D" uid="uid://2gustnhflyce" path="res://images/lovely-flowers/lovely flowers (12).png" id="10_velpo"]
+[ext_resource type="Texture2D" uid="uid://dsapnlfct4mj6" path="res://images/lovely-flowers/lovely flowers (7).png" id="11_gfp4l"]
 
 [node name="planets" type="Node2D"]
 
 [node name="neptune" type="Sprite2D" parent="."]
-position = Vector2(1087.0001, 379.00006)
-scale = Vector2(0.16176467, 0.1550926)
+position = Vector2(1703.0001, 130)
+scale = Vector2(0.77647036, 0.77655095)
 texture = ExtResource("1_ex1bp")
 
-[node name="moon" type="Sprite2D" parent="."]
-position = Vector2(685.1094, 614.71094)
-scale = Vector2(0.53190655, 0.51912403)
-texture = ExtResource("2_bkhmr")
-
 [node name="blue-planet" type="Sprite2D" parent="."]
-position = Vector2(1089, 96.000015)
-scale = Vector2(1.3215792, 1.2843602)
+position = Vector2(898.4531, -3177)
+scale = Vector2(1.9275228, 1.9004745)
 texture = ExtResource("4_0hu8o")
 
 [node name="saturn" type="Sprite2D" parent="."]
-position = Vector2(1363, 240)
-scale = Vector2(0.28469485, 0.28296852)
+position = Vector2(2210, -3906)
+scale = Vector2(2.0741262, 1.9149387)
 texture = ExtResource("5_ex1bp")
 
 [node name="mars" type="Sprite2D" parent="."]
-position = Vector2(-3.9999962, -47.999992)
-scale = Vector2(1.6919998, 1.6233749)
+position = Vector2(1844, -1321.9999)
+scale = Vector2(1.898, 1.877687)
 texture = ExtResource("6_ex1bp")
 
-[node name="sun" type="Sprite2D" parent="."]
-position = Vector2(718, -783.00006)
-scale = Vector2(1.4103265, 1.6362408)
+[node name="happy sun" type="Sprite2D" parent="."]
+position = Vector2(1509, -6197.0005)
+scale = Vector2(3.2129498, 3.6980295)
 texture = ExtResource("7_bkhmr")
 
 [node name="shiny-planet" type="Sprite2D" parent="."]
-position = Vector2(-433.99988, -1068)
-scale = Vector2(0.72640574, 0.6882531)
+position = Vector2(401, -4519)
+scale = Vector2(1.4316012, 1.4250753)
 texture = ExtResource("7_ex1bp")
+
+[node name="galactic river" type="Sprite2D" parent="."]
+position = Vector2(533, 816)
+scale = Vector2(1.1571862, 1.0597501)
+texture = ExtResource("9_6ktrl")
+
+[node name="icarus" type="Sprite2D" parent="."]
+position = Vector2(526.00006, -843)
+scale = Vector2(1.0305558, 0.8331249)
+texture = ExtResource("10_velpo")
+
+[node name="shining star" type="Sprite2D" parent="."]
+position = Vector2(2018, -2710)
+scale = Vector2(0.51936275, 0.46900824)
+texture = ExtResource("11_gfp4l")
+
+[node name="shining sun" type="Sprite2D" parent="."]
+position = Vector2(181, -1752)
+scale = Vector2(1.6459999, 1.6759998)
+texture = ExtResource("10_slkqb")
+
+[node name="moon" type="Sprite2D" parent="."]
+position = Vector2(218, 178)
+scale = Vector2(1.1300989, 1.1243508)
+texture = ExtResource("2_bkhmr")
