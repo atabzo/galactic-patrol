@@ -50,7 +50,7 @@ _data = {
 [node name="cosmos-quest" type="Node2D"]
 
 [node name="cosmos-background" parent="." instance=ExtResource("1_k76xp")]
-position = Vector2(-967, -378)
+position = Vector2(-17, 124)
 
 [node name="fire" type="Sprite2D" parent="."]
 position = Vector2(933.9999, 276.99988)
@@ -61,23 +61,23 @@ texture = ExtResource("2_aqimm")
 script = ExtResource("3_ttfkt")
 
 [node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
-position = Vector2(825.00006, 336.00003)
+position = Vector2(1626, 551.00006)
 
 [node name="Camera2D" type="Camera2D" parent="Spaceship"]
-position = Vector2(115.51318, 148.76736)
+position = Vector2(-539.3328, -123.17297)
 scale = Vector2(1, 0.9999999)
 script = ExtResource("6_kj15b")
 
 [node name="planets" parent="." instance=ExtResource("3_rwe2g")]
-position = Vector2(359, -48)
+position = Vector2(196, 13)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Label" type="Label" parent="CanvasLayer"]
-offset_left = 33.0
-offset_top = 902.0
-offset_right = 1956.0
-offset_bottom = 1080.0
+offset_left = 18.0
+offset_top = 950.0
+offset_right = 1941.0
+offset_bottom = 1128.0
 theme_override_fonts/font = ExtResource("6_ol5eh")
 theme_override_font_sizes/font_size = 95
 text = "heyhey"
@@ -89,10 +89,10 @@ libraries = {
 }
 
 [node name="Button" type="Button" parent="CanvasLayer"]
-offset_left = 1362.0
-offset_top = 901.0
-offset_right = 1608.0
-offset_bottom = 1006.0
+offset_left = 1648.0
+offset_top = 956.0
+offset_right = 1894.0
+offset_bottom = 1061.0
 theme_override_fonts/font = ExtResource("6_ol5eh")
 theme_override_font_sizes/font_size = 53
 text = "exit"
