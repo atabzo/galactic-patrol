@@ -36,14 +36,14 @@ text = "okay so this is you!"
 autowrap_mode = 2
 
 [node name="Label2" type="Label" parent="Sprite2D"]
-offset_left = 701.0
-offset_top = 668.0
-offset_right = 1330.0
-offset_bottom = 774.0
+offset_left = 821.0
+offset_top = 758.0
+offset_right = 1450.0
+offset_bottom = 864.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_fin8p")
 theme_override_font_sizes/font_size = 35
-text = "you're carrying just get back to earth safely, okay?"
+text = "<storyline in progress>"
 autowrap_mode = 2
 
 [node name="SoundClick" type="AudioStreamPlayer" parent="Sprite2D"]

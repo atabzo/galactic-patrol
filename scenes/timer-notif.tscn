@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://c0vjmudueabg1"]
+[gd_scene load_steps=4 format=3 uid="uid://c0vjmudueabg1"]
 
 [ext_resource type="PackedScene" uid="uid://bg8jcvv5bafss" path="res://scenes/notification_panels.tscn" id="1_bfyj3"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="2_am4cu"]
+[ext_resource type="PackedScene" uid="uid://bwdilim1wy6xl" path="res://scenes/alert_panel.tscn" id="3_na0k6"]
 
 [node name="timer-notification" type="Node2D"]
 
@@ -20,3 +21,5 @@ text = "Captain <user>, We're almost there!!!
 
 Fasten your seatbelt. Our home awaits us! :D"
 autowrap_mode = 2
+
+[node name="alert-panel" parent="." instance=ExtResource("3_na0k6")]

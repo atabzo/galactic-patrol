@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://b4uwhsgn63755"]
+[gd_scene load_steps=8 format=3 uid="uid://b4uwhsgn63755"]
 
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_u14vp"]
 [ext_resource type="Texture2D" uid="uid://b0xixo52hn7c0" path="res://images/end-screen icons/thorfinn.png" id="2_agp5w"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://d28toeluan76x" path="res://images/end-screen icons/grateful.png" id="4_i70nl"]
 [ext_resource type="Script" uid="uid://couvcxs3mhfb1" path="res://scenes/elemental-scripts/stars_ending_scene.gd" id="4_qar6k"]
 [ext_resource type="Script" uid="uid://cjmngb1joepqc" path="res://scenes/ending-scene-button.gd" id="5_qar6k"]
+[ext_resource type="FontFile" uid="uid://cgubdup60y4ta" path="res://fonts/OriginalSurfer-Regular.ttf" id="7_5cw1r"]
 
 [node name="end-proud-scene" type="Node2D"]
 
@@ -14,10 +15,10 @@ offset_left = -12.0
 offset_top = -17.0
 offset_right = 1930.0
 offset_bottom = 1109.0
-color = Color(0.39607844, 1, 0.12941177, 1)
+color = Color(0.96268326, 0.83946943, 0.41928858, 1)
 
 [node name="Thorfinn" type="Sprite2D" parent="ColorRect"]
-position = Vector2(455.00003, 485.99997)
+position = Vector2(462, 510.99997)
 scale = Vector2(1.7201831, 1.6650342)
 texture = ExtResource("2_agp5w")
 offset = Vector2(-50.298294, 72.750305)
@@ -51,7 +52,7 @@ offset_left = 817.0
 offset_top = 141.0
 offset_right = 1860.0
 offset_bottom = 668.0
-theme_override_fonts/font = ExtResource("1_u14vp")
+theme_override_fonts/font = ExtResource("7_5cw1r")
 theme_override_font_sizes/font_size = 85
 text = "Yayyy... You just saved the Earth!!!
 

@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dpega4ifxil4i" path="res://images/welcome-screen/paper.png" id="2_01j2m"]
 [ext_resource type="Texture2D" uid="uid://ds1ne4uplchtx" path="res://images/lovely-flowers/lovely flowers (6).png" id="3_8wqor"]
 [ext_resource type="Texture2D" uid="uid://dsapnlfct4mj6" path="res://images/lovely-flowers/lovely flowers (7).png" id="4_0f06d"]
-[ext_resource type="FontFile" uid="uid://bv1mjnuli2866" path="res://fonts/FreckleFace-Regular.ttf" id="5_f164h"]
+[ext_resource type="FontFile" uid="uid://cgubdup60y4ta" path="res://fonts/OriginalSurfer-Regular.ttf" id="5_f164h"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="7_f164h"]
 [ext_resource type="Texture2D" uid="uid://bg4b0tlycsifi" path="res://images/more icons/more icons (1).png" id="8_01j2m"]
 [ext_resource type="Texture2D" uid="uid://dadcmx5kk28y0" path="res://images/more icons/more icons (3).png" id="9_t82ha"]
@@ -63,7 +63,7 @@ func _process(delta):
 script/source = "extends Button
 
 # Path to the scene you want to load
-@export var next_scene: String = \"res://scenes/login_screen.tscn\"
+@export var next_scene: String = \"res://scenes/quest.tscn\"
 
 func _ready():
 	pressed.connect(_on_button_pressed)
@@ -120,10 +120,10 @@ max_scale = 1.0
 
 [node name="Label" type="Label" parent="."]
 modulate = Color(0.17438853, 0.2298995, 1.92523e-07, 1)
-offset_left = 438.0
-offset_top = 153.0
-offset_right = 1190.0
-offset_bottom = 408.0
+offset_left = 423.0
+offset_top = 155.0
+offset_right = 1175.0
+offset_bottom = 410.0
 theme_override_fonts/font = ExtResource("5_f164h")
 theme_override_font_sizes/font_size = 100
 text = "gladiators of the cosmos"
@@ -140,7 +140,7 @@ scale = Vector2(0.35568824, 0.356148)
 texture = ExtResource("9_t82ha")
 
 [node name="MoreIcons(6)" type="Sprite2D" parent="."]
-position = Vector2(1644, 657.99994)
+position = Vector2(1635, 637)
 scale = Vector2(1.2069306, 1.0578563)
 texture = ExtResource("10_qt0h2")
 
@@ -155,11 +155,11 @@ text = "play play play?"
 script = SubResource("GDScript_t82ha")
 
 [node name="exit button" type="Button" parent="."]
-offset_left = 468.0
-offset_top = 886.0
-offset_right = 1268.0
-offset_bottom = 1014.0
+offset_left = 537.0
+offset_top = 892.0
+offset_right = 1177.0
+offset_bottom = 1020.0
 theme_override_fonts/font = ExtResource("7_f164h")
 theme_override_font_sizes/font_size = 70
-text = "exit (please don't?)"
+text = "maybe later"
 script = SubResource("GDScript_jjpr3")

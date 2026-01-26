@@ -1,10 +1,102 @@
-[gd_scene load_steps=6 format=3 uid="uid://pecmnci3bhci"]
+[gd_scene load_steps=9 format=3 uid="uid://pecmnci3bhci"]
 
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_tkqgx"]
 [ext_resource type="Texture2D" uid="uid://dy28g46eot8ko" path="res://images/more icons/sad.png" id="2_t8agq"]
 [ext_resource type="Texture2D" uid="uid://d17x10uyv0nkl" path="res://images/more icons/more icons (4).png" id="3_g333y"]
 [ext_resource type="Texture2D" uid="uid://d28toeluan76x" path="res://images/end-screen icons/grateful.png" id="4_axtjj"]
 [ext_resource type="Texture2D" uid="uid://dpmg43pvpanyl" path="res://images/lovely-flowers/flowers.png" id="4_dpu3s"]
+[ext_resource type="AudioStream" uid="uid://d2pnb8vk1nta7" path="res://audios/sound-click.mp3" id="6_axtjj"]
+
+[sub_resource type="GDScript" id="GDScript_axtjj"]
+script/source = "extends Button
+
+var tween: Tween
+@onready var click_sound = $\"../SoundClick\"
+
+func _ready():
+	pivot_offset = size / 2
+	
+	mouse_entered.connect(_on_mouse_entered)
+	mouse_exited.connect(_on_mouse_exited)
+	button_up.connect(_on_button_up)
+	pressed.connect(_on_pressed)
+
+func _on_mouse_entered():
+	if tween:
+		tween.kill()
+	tween = create_tween().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	tween.tween_property(self, \"scale\", Vector2(1.1, 1.1), 0.3)
+
+func _on_mouse_exited():
+	if tween:
+		tween.kill()
+	tween = create_tween().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	tween.tween_property(self, \"scale\", Vector2(1.0, 1.0), 0.3)
+
+func _on_button_up():
+	if tween:
+		tween.kill()
+	tween = create_tween().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	tween.tween_property(self, \"scale\", Vector2(1.1, 1.1), 0.2)
+
+func _on_pressed():
+	print(\"Exit button pressed!\")
+	
+	if click_sound:
+		click_sound.play()
+		# Wait for sound to finish before exiting
+		await click_sound.finished
+	
+	# Exit the game
+	get_tree().quit()
+"
+
+[sub_resource type="GDScript" id="GDScript_dpu3s"]
+script/source = "extends Button
+
+var tween: Tween
+@onready var click_sound = $\"../SoundClick\"
+
+# Define the scene you want to switch to
+@export_file(\"*.tscn\") var next_scene: String = \"res://scenes/quest.tscn\"
+
+func _ready():
+	pivot_offset = size / 2
+	
+	mouse_entered.connect(_on_mouse_entered)
+	mouse_exited.connect(_on_mouse_exited)
+	button_up.connect(_on_button_up)
+	pressed.connect(_on_pressed)
+
+func _on_mouse_entered():
+	if tween:
+		tween.kill()
+	tween = create_tween().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	tween.tween_property(self, \"scale\", Vector2(1.1, 1.1), 0.3)
+
+func _on_mouse_exited():
+	if tween:
+		tween.kill()
+	tween = create_tween().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	tween.tween_property(self, \"scale\", Vector2(1.0, 1.0), 0.3)
+
+func _on_button_up():
+	if tween:
+		tween.kill()
+	tween = create_tween().set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	tween.tween_property(self, \"scale\", Vector2(1.1, 1.1), 0.2)
+
+func _on_pressed():
+	print(\"Button pressed!\")
+	
+	if click_sound:
+		click_sound.play()
+		# Wait for sound to finish before switching scenes
+		await click_sound.finished
+	
+	# Switch to the defined scene
+	get_tree().change_scene_to_file(next_scene)
+"
 
 [node name="exit-page" type="Node2D"]
 
@@ -36,6 +128,7 @@ theme_override_colors/icon_disabled_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("1_tkqgx")
 theme_override_font_sizes/font_size = 57
 text = "yes, I'll leave"
+script = SubResource("GDScript_axtjj")
 
 [node name="MoreIcons(4)" type="Sprite2D" parent="."]
 position = Vector2(1530, 617)
@@ -47,20 +140,24 @@ rotation = -3.3859386
 texture = ExtResource("4_dpu3s")
 
 [node name="Button2" type="Button" parent="."]
-offset_left = 83.0
+offset_left = 60.0
 offset_top = 771.0
-offset_right = 619.0
+offset_right = 596.0
 offset_bottom = 930.0
 theme_override_fonts/font = ExtResource("1_tkqgx")
 theme_override_font_sizes/font_size = 71
 text = "uhm I'll play!"
+script = SubResource("GDScript_dpu3s")
 
 [node name="Grateful" type="Sprite2D" parent="."]
-position = Vector2(726, 847)
+position = Vector2(759.99994, 834)
 scale = Vector2(0.6330798, 0.6708861)
 texture = ExtResource("4_axtjj")
 
 [node name="Sad" type="Sprite2D" parent="."]
-position = Vector2(1658, 864.00006)
+position = Vector2(1726.0001, 864.00006)
 scale = Vector2(0.60777384, 0.60034007)
 texture = ExtResource("2_t8agq")
+
+[node name="SoundClick" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_axtjj")
