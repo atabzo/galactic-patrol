@@ -1,13 +1,13 @@
 [gd_scene load_steps=8 format=3 uid="uid://bfwko0sr7sj7h"]
 
-[ext_resource type="PackedScene" uid="uid://3ij332oy6agh" path="res://scenes/cosmos-background.tscn" id="1_pomre"]
-[ext_resource type="PackedScene" uid="uid://3ij332oy6agh" path="res://scenes/cosmos-background.tscn" id="2_76v1n"]
+[ext_resource type="PackedScene" uid="uid://doqhhk0o3kfih" path="res://scenes/cosmos-background.tscn" id="1_pomre"]
+[ext_resource type="PackedScene" uid="uid://3ij332oy6agh" path="res://scenes/cosmos-new.tscn" id="2_76v1n"]
 [ext_resource type="PackedScene" uid="uid://3ftjinsp46ma" path="res://scenes/planets.tscn" id="2_i8n5b"]
 [ext_resource type="PackedScene" uid="uid://5itikjci4prl" path="res://scenes/spaceship.tscn" id="3_76v1n"]
 [ext_resource type="Script" uid="uid://6ettbg05a0wo" path="res://scenes/elemental-scripts/camera-alternate-quest.gd" id="4_irmld"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="6_76v1n"]
 
-[sub_resource type="GDScript" id="GDScript_76v1n"]
+[sub_resource type="GDScript" id="GDScript_i8n5b"]
 script/source = "extends Label
 
 @export var player: Node2D  # This creates a slot in the Inspector
@@ -45,15 +45,14 @@ func get_direction_text(dir: Vector2) -> String:
 [node name="alternate-quest" type="Node2D"]
 
 [node name="cosmos-background" parent="." instance=ExtResource("1_pomre")]
-position = Vector2(-484, 619)
 
 [node name="cosmos-background2" parent="." instance=ExtResource("2_76v1n")]
 
 [node name="planets" parent="." instance=ExtResource("2_i8n5b")]
-position = Vector2(88, -235)
+position = Vector2(-9, 217)
 
 [node name="Spaceship" parent="." instance=ExtResource("3_76v1n")]
-position = Vector2(1339, 359.99988)
+position = Vector2(1091, -260.99994)
 
 [node name="Camera2D" type="Camera2D" parent="." node_paths=PackedStringArray("target")]
 position = Vector2(948, 538)
@@ -64,13 +63,13 @@ target = NodePath("../Spaceship")
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Label" type="Label" parent="CanvasLayer"]
-offset_left = -16.0
-offset_top = 933.0
-offset_right = 1907.0
-offset_bottom = 1133.0
+offset_left = 25.0
+offset_top = 859.0
+offset_right = 1948.0
+offset_bottom = 1059.0
 theme_override_fonts/font = ExtResource("6_76v1n")
 theme_override_font_sizes/font_size = 105
 text = "hey hey hey"
-script = SubResource("GDScript_76v1n")
+script = SubResource("GDScript_i8n5b")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="CanvasLayer/Label"]

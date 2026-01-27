@@ -1,80 +1,25 @@
-[gd_scene load_steps=2 format=3 uid="uid://doqhhk0o3kfih"]
+[gd_scene load_steps=2 format=3 uid="uid://3ij332oy6agh"]
 
-[ext_resource type="Texture2D" uid="uid://ngqqjbinr41p" path="res://images/backdrops/background.jpg" id="1_sa53c"]
+[ext_resource type="Texture2D" uid="uid://2ws08qac2328" path="res://images/backdrops/high quality cosmos.jpg" id="1_5nftm"]
 
 [node name="cosmos-background" type="Node2D"]
 
-[node name="Background" type="Sprite2D" parent="."]
-position = Vector2(954.2499, 510.87482)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1066, 539)
+scale = Vector2(0.48299474, 0.47502545)
+texture = ExtResource("1_5nftm")
 
-[node name="Background2" type="Sprite2D" parent="."]
-position = Vector2(958.00006, -550.99994)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
+[node name="HighQualityCosmos" type="Sprite2D" parent="."]
+position = Vector2(-850.99994, 473.0001)
+scale = Vector2(0.3915636, 0.4524295)
+texture = ExtResource("1_5nftm")
 
-[node name="Background3" type="Sprite2D" parent="."]
-position = Vector2(2818.0002, 516)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
+[node name="HighQualityCosmos2" type="Sprite2D" parent="."]
+position = Vector2(-838, 1783)
+scale = Vector2(0.36616609, 0.4493714)
+texture = ExtResource("1_5nftm")
 
-[node name="Background4" type="Sprite2D" parent="."]
-position = Vector2(2862, -544.00006)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background5" type="Sprite2D" parent="."]
-position = Vector2(2855.0002, 1583)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background6" type="Sprite2D" parent="."]
-position = Vector2(947.00024, 1580)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background7" type="Sprite2D" parent="."]
-position = Vector2(-924, 1594.0001)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background8" type="Sprite2D" parent="."]
-position = Vector2(-975.00006, 568.0001)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background9" type="Sprite2D" parent="."]
-position = Vector2(-949.00006, -487.00003)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background10" type="Sprite2D" parent="."]
-position = Vector2(-967.00006, -1509.0001)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background11" type="Sprite2D" parent="."]
-position = Vector2(965.00006, -1593)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background12" type="Sprite2D" parent="."]
-position = Vector2(2835, -1542.0001)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background13" type="Sprite2D" parent="."]
-position = Vector2(-974.00006, -2598)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background14" type="Sprite2D" parent="."]
-position = Vector2(931.99994, -2592)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
-
-[node name="Background15" type="Sprite2D" parent="."]
-position = Vector2(2831, -2580.0002)
-scale = Vector2(3.024219, 2.972918)
-texture = ExtResource("1_sa53c")
+[node name="HighQualityCosmos3" type="Sprite2D" parent="."]
+position = Vector2(974.99994, 1873.9999)
+scale = Vector2(0.44412544, 0.4717975)
+texture = ExtResource("1_5nftm")

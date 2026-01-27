@@ -99,10 +99,10 @@ script = SubResource("GDScript_0vetw")
 popup_scene = ExtResource("1_0vetw")
 
 [node name="cosmos-background" parent="." instance=ExtResource("1_k76xp")]
-position = Vector2(85, 96)
+position = Vector2(419, 125)
 
 [node name="fire" type="Sprite2D" parent="."]
-position = Vector2(933.9999, 276.99988)
+position = Vector2(1304, 273.99997)
 rotation = 0.5661373
 scale = Vector2(0.20988414, 0.23116943)
 skew = -0.015207529
@@ -110,7 +110,7 @@ texture = ExtResource("2_aqimm")
 script = ExtResource("3_ttfkt")
 
 [node name="Spaceship" parent="." instance=ExtResource("2_rwe2g")]
-position = Vector2(1618, 689.00006)
+position = Vector2(1626, 689.00006)
 
 [node name="Camera2D" type="Camera2D" parent="Spaceship"]
 position = Vector2(-539.3328, -123.17297)
@@ -118,15 +118,15 @@ scale = Vector2(1, 0.9999999)
 script = ExtResource("6_kj15b")
 
 [node name="planets" parent="." instance=ExtResource("3_rwe2g")]
-position = Vector2(-38, -199)
+position = Vector2(-13, -65)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Label" type="Label" parent="CanvasLayer"]
-offset_left = 16.0
-offset_top = 929.0
-offset_right = 1939.0
-offset_bottom = 1107.0
+offset_left = 38.0
+offset_top = 866.0
+offset_right = 1961.0
+offset_bottom = 1044.0
 theme_override_fonts/font = ExtResource("6_ol5eh")
 theme_override_font_sizes/font_size = 95
 text = "heyhey"
@@ -154,4 +154,4 @@ stream = ExtResource("10_62uld")
 stream = ExtResource("11_k76xp")
 
 [node name="alert-panel" parent="." instance=ExtResource("1_0vetw")]
-position = Vector2(867, -1175)
+position = Vector2(974, -1233)

@@ -69,7 +69,7 @@ offset_right = 144.02516
 offset_bottom = 217.86159
 theme_override_fonts/font = ExtResource("2_8q002")
 theme_override_font_sizes/font_size = 34
-text = "play play play?"
+text = "type type"
 script = ExtResource("6_dtwsp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="reactive-paper/Paper"]

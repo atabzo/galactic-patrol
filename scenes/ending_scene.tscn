@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b4uwhsgn63755"]
+[gd_scene load_steps=7 format=3 uid="uid://b4uwhsgn63755"]
 
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="1_u14vp"]
 [ext_resource type="Texture2D" uid="uid://b0xixo52hn7c0" path="res://images/end-screen icons/thorfinn.png" id="2_agp5w"]
@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://d28toeluan76x" path="res://images/end-screen icons/grateful.png" id="4_i70nl"]
 [ext_resource type="Script" uid="uid://couvcxs3mhfb1" path="res://scenes/elemental-scripts/stars_ending_scene.gd" id="4_qar6k"]
 [ext_resource type="Script" uid="uid://cjmngb1joepqc" path="res://scenes/ending-scene-button.gd" id="5_qar6k"]
-[ext_resource type="FontFile" uid="uid://cgubdup60y4ta" path="res://fonts/OriginalSurfer-Regular.ttf" id="7_5cw1r"]
 
 [node name="end-proud-scene" type="Node2D"]
 
@@ -36,10 +35,10 @@ texture = ExtResource("4_i70nl")
 
 [node name="Button" type="Button" parent="ColorRect"]
 layout_mode = 0
-offset_left = 1106.0
-offset_top = 840.0
-offset_right = 1516.0
-offset_bottom = 994.0
+offset_left = 1149.0
+offset_top = 819.0
+offset_right = 1559.0
+offset_bottom = 973.0
 theme_override_fonts/font = ExtResource("1_u14vp")
 theme_override_font_sizes/font_size = 79
 text = "continue"
@@ -52,7 +51,7 @@ offset_left = 817.0
 offset_top = 141.0
 offset_right = 1860.0
 offset_bottom = 668.0
-theme_override_fonts/font = ExtResource("7_5cw1r")
+theme_override_fonts/font = ExtResource("1_u14vp")
 theme_override_font_sizes/font_size = 85
 text = "Yayyy... You just saved the Earth!!!
 

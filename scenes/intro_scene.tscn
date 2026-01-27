@@ -1,10 +1,9 @@
-[gd_scene load_steps=14 format=3 uid="uid://cchadmwbfkspu"]
+[gd_scene load_steps=13 format=3 uid="uid://cchadmwbfkspu"]
 
 [ext_resource type="Texture2D" uid="uid://c5egd0ijyalvy" path="res://images/end-screen icons/effects/effects (5).png" id="1_0f06d"]
 [ext_resource type="Texture2D" uid="uid://dpega4ifxil4i" path="res://images/welcome-screen/paper.png" id="2_01j2m"]
 [ext_resource type="Texture2D" uid="uid://ds1ne4uplchtx" path="res://images/lovely-flowers/lovely flowers (6).png" id="3_8wqor"]
 [ext_resource type="Texture2D" uid="uid://dsapnlfct4mj6" path="res://images/lovely-flowers/lovely flowers (7).png" id="4_0f06d"]
-[ext_resource type="FontFile" uid="uid://cgubdup60y4ta" path="res://fonts/OriginalSurfer-Regular.ttf" id="5_f164h"]
 [ext_resource type="FontFile" uid="uid://dkkllk7rn2lwp" path="res://fonts/bitcount.ttf" id="7_f164h"]
 [ext_resource type="Texture2D" uid="uid://bg4b0tlycsifi" path="res://images/more icons/more icons (1).png" id="8_01j2m"]
 [ext_resource type="Texture2D" uid="uid://dadcmx5kk28y0" path="res://images/more icons/more icons (3).png" id="9_t82ha"]
@@ -120,11 +119,11 @@ max_scale = 1.0
 
 [node name="Label" type="Label" parent="."]
 modulate = Color(0.17438853, 0.2298995, 1.92523e-07, 1)
-offset_left = 423.0
+offset_left = 434.0
 offset_top = 155.0
-offset_right = 1175.0
+offset_right = 1186.0
 offset_bottom = 410.0
-theme_override_fonts/font = ExtResource("5_f164h")
+theme_override_fonts/font = ExtResource("7_f164h")
 theme_override_font_sizes/font_size = 100
 text = "gladiators of the cosmos"
 horizontal_alignment = 1
